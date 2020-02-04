@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
   <title>LinkedIn</title>
 </head>
 
@@ -111,29 +112,97 @@
       </div>
     </div>
     <!--button to see a linkedin user companies -->
-    <a href="#" type="button" data-toggle="modal" data-target="#interests-modal"
-      class=" row interests__see-all ">
+    <a href="#" type="button" data-toggle="modal" data-target="#interests-modal" class=" row interests__see-all ">
       <div class="interests__see-all-btn">See all</div>
     </a>
 
     <!-- Modal content that contains user's companies -->
-    <div class="modal fade" id="interests-modal" role="dialog">
-      <div class="modal-dialog modal-lg">
+    <div class="modal fade" id="interests-modal"  role="dialog">
+      <div class="modal-dialog modal-lg interests-modal">
         <div class="interests-modal__content modal-content">
           <div class="interests-modal__header modal-header">
-            <h3>Companies</h3>
-            <button type="button" class="close interests-modal__close" data-dismiss="modal">
+            <h3 class="interests-modal__title">Companies</h3>
+            <button type="button" class=" close" data-dismiss="modal">
               &times;
             </button>
           </div>
           <div class="interests-modal__body modal-body ">
-            
+            <div class="row interests-modal__container">
+              <div class="col-md-1 ">
+                <a href="#"><img src="assets/logo-3.png" class="interests__logo " alt="" /></a>
+              </div>
+              <div class="col-md-7">
+                <a href="#" class="interests__link ">
+                  <h3 class="text-truncate interests__description">
+                    Company Name or Description
+                  </h3>
+                </a>
+                <a href="#" class="interests__link">
+                  <p class=" interests__follower-count">
+                    company follower counter
+                  </p>
+                </a>
+              </div>
+              <div class="col-md-4 text-center">
+                <a class="interests__link--modal" href="#">
+                  <i class="fas fa-check "></i>
+                  <span>Following</span>
+                </a>
+              </div>
+            </div>
+            <div class="row interests-modal__container">
+              <div class="col-md-1 ">
+                <a href="#"><img src="assets/logo-3.png" class="interests__logo " alt="" /></a>
+              </div>
+              <div class="col-md-7">
+                <a href="#" class="interests__link ">
+                  <h3 class="text-truncate interests__description">
+                    Company Name or Description
+                  </h3>
+                </a>
+                <a href="#" class="interests__link">
+                  <p class=" interests__follower-count">
+                    company follower counter
+                  </p>
+                </a>
+              </div>
+              <div class="col-md-4 text-center">
+                <a class="interests__link--modal" href="#">
+                  <i class="fas fa-check "></i>
+                  <span>Following</span>
+                </a>
+              </div>
+            </div>
+            <div class="row interests-modal__container">
+              <div class="col-md-1 ">
+                <a href="#"><img src="assets/logo-3.png" class="interests__logo " alt="" /></a>
+              </div>
+              <div class="col-md-7">
+                <a href="#" class="interests__link ">
+                  <h3 class="text-truncate interests__description">
+                    Company Name or Description
+                  </h3>
+                </a>
+                <a href="#" class="interests__link">
+                  <p class=" interests__follower-count">
+                    company follower counter
+                  </p>
+                </a>
+              </div>
+              <div class="col-md-4 text-center">
+                <a class="interests__link--modal" href="#">
+                  <i class="fas fa-check "></i>
+                  <span>Following</span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 
+  <!-- Dashboard section -->
   <div class="container mt-5">
     <div class="row dashboard">
       <h2 class="dashboard__title">Your Dashboard</h2>
@@ -154,7 +223,7 @@
       </div>
     </div>
   </div>
-  
+
 
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
