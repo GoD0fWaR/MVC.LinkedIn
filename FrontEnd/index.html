@@ -1,12 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/dc5699099d.js" crossorigin="anonymous"></script>
     <title>LinkedIn</title>
+
 </head>
+
 <body>
-    
+    <div class="container intro">
+        <!-- cover -->
+        <div class=" item-intro">
+            <div class="position-absolute img-profile">
+                <img src="../FrontEnd/assities/3d.jpg" style="width: 160px; height:160px;" class="img-fluid rounded-circle">
+            </div>
+        </div>
+        <!-- personal information -->
+        <div class="d-block p-2 bg-light">
+            <div class=" d-flex flex-row-reverse " style="display: table; width: 100%;">
+                <div style="margin: 1rem; color:#0073b1; display: table-cell">
+                    <i class="fas fa-pencil-alt"></i>
+                </div>
+                <!--<button type="button" class="btn btn-outline-dark" style="margin: 0 1rem;">More...</button>-->
+                <div class="dropdown p-2">
+                    <button class=" btn border border-dark btn-light" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        More....
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item " type="button"> <i class="fas fa-share p-2"></i>Share Profile vs Message</button>
+                        <button class="dropdown-item" type="button"> <i class="fas fa-share p-2"></i>Save as PDF</button>
+
+                    </div>
+                </div>
+                <div class="p-2">
+                    <button type="button " class="btn btn-primary btn-lg">Add Profile Section<i class="fas fa-sort-down "></i></button>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between p-2">
+                <div class="d-block p-2">
+                    <div class="d-flex">
+                        <ul class="info-ul">
+                            <li id="firstName">Nora </li>
+                            <li id="lastName"> Mohamed </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="info-ul" id="possition">
+                            <li> ITI Intake 40</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex ">
+                        <ul class="info-ul">
+                            <li id="country" style="margin: auto;">Egypy.</li>
+                            <li id="connection">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-link" data-toggle="modal" data-target="#Connection">
+                                    Connection .
+                                </button>
+                            </li>
+                            <li id="contact"><a href="#" class="btn btn-link">Contact Info </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-block p-2">
+                    <div class="d-flex p-2" id="current company">
+                        <div class="sm-img"><img class="img-fluid" src="../FrontEnd/assities/0.png"> </div>
+                        <div class="btn btn-link link"> Information Technology Instutute ITI </div>
+                    </div>
+                    <div class="d-flex p-2" id="last company">
+                        <div style="width: 32px; height: 32px;"><img class="img-fluid" src="../FrontEnd/assities/0.png"> </div>
+                        <div class="btn btn-link link"> Information Technology Instutute ITI </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="Connection" tabindex="-1" role="dialog" aria-labelledby="ConnectionLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Nora Mohamed</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-block p-2">
+                        <div class="d-flex justify-content-between">
+                            <h2>Contact info </h2>
+                            <a href="#"><i class="fas fa-pencil-alt"></i></a>
+                        </div>
+                        <div>
+                            <div class="d-flex p-2 ">
+                                <div class="d-block p-2">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="d-flex flex-column p-2">
+                                    <span> your profile</span>
+                                    <a href="#" style="padding: 0%;" class="btn btn-link">noura.mohamed@linkedin.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="d-flex p-2 ">
+                                <div class="d-block p-2">
+                                    <i class="far fa-envelope"></i>
+                                </div>
+                                <div class="d-flex flex-column p-2">
+                                    <span> Email</span>
+                                    <a href="#" style="padding: 0%;" class="btn btn-link">noura.mohamed@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
