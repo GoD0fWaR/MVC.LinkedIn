@@ -16,20 +16,22 @@ body {
 
 .item-intro {
   position: relative;
-  width: 100%;
-  padding-bottom: 25%;
-  background-image: url("../assities/Capture.PNG"); }
+  height: 200px;
+  background-image: url("../assets/Capture.PNG");
+  background-size: cover; }
 
 .info-ul {
   display: flex;
   list-style: none; }
 
 .img-profile {
-  bottom: -2rem;
-  margin: 0 2rem; }
+  top: 50%;
+  padding: 0 2em; }
+  .img-profile .profile-image {
+    width: 150px;
+    height: 150px; }
 
-.link {
-  margin: auto;
+.info-link {
   color: black; }
 
 .sm-img {
