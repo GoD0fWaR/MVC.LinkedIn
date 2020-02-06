@@ -3,9 +3,11 @@
 @import 'abstracts/placeholders';
 @import 'abstracts/mixins';
 @import 'abstracts/functions';
+
 @import 'base/reset.scss';
 @import 'base/typography';
 @import 'base/utilities';
+
 @import 'components/interests.scss';
 @import 'components/dashboard.scss';
 @import 'components/interests-modal.scss';
@@ -17,3 +19,13 @@
 @import 'components/btn-more';
 @import 'components/profile-icon';
 @import 'components/background';
+@import 'components/btn-show.scss';
+@import 'components/skill.scss';
+@import 'components/nav-tab.scss';
+@import 'components/accomplishment.scss';
+@import 'components/section.scss';
+@import 'components/skill-edit.scss';
+@import 'components/tool';
+
+@import 'layout/sections.scss';
+@import 'pages/profile.scss';

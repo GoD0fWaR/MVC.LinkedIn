@@ -173,3 +173,182 @@ body {
   width: 45px;
   height: 45px;
   margin: auto; }
+.tools {
+  background-color: #F3F6F8;
+  margin: 0;
+  width: 100%;
+  padding-bottom: 3rem;
+  display: none;
+  transition: all ease-in-out 0.2ms; }
+  .tools--active {
+    display: block; }
+
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.5rem; }
+  .btn--show, .btn--arrow, .btn--edit, .btn--plus {
+    color: #2D7EAA !important;
+    transition: all ease-in-out 0.2ms;
+    display: none; }
+    .btn--show:hover, .btn--arrow:hover, .btn--edit:hover, .btn--plus:hover {
+      background-color: #E5F5FC; }
+  .btn--show {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid #cccccc;
+    display: none; }
+    .btn--show:hover {
+      background-color: #E5F5FC; }
+  .btn--arrow, .btn--edit, .btn--plus {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex; }
+  .btn--arrow {
+    display: none; }
+  .btn--add {
+    color: #7B7B7B; }
+    .btn--add:hover {
+      background-color: #C8C8C8 !important;
+      color: #1A1A1A; }
+  .btn--active {
+    display: inline-block; }
+
+.skill {
+  padding: 2rem 0 1rem 1.2rem;
+  border-bottom: 1px solid #cccccc;
+  letter-spacing: 0.7px;
+  line-height: 1.5; }
+  .skill__description {
+    font-size: 1.4rem;
+    font-weight: 400; }
+  .skill:last-child {
+    border-bottom: none; }
+  .skill__title {
+    padding-bottom: 1rem; }
+  .skill__name, .skill__no-of-endorsments {
+    display: inline-block; }
+  .skill__name, .skill__endorsed-person {
+    font-weight: 600; }
+  .skill__no-of-endorsments {
+    color: #767676; }
+  .skill__endorsment-description {
+    font-weight: 400; }
+  .skill__endorsed-person, .skill__endorsment-description {
+    display: inline-block; }
+
+.nav-link {
+  margin-top: 1.5rem;
+  font-size: 1.4rem !important;
+  font-weight: 660;
+  color: #767676; }
+  .nav-link.active {
+    border-bottom: 2px solid #2D7EAA !important;
+    color: #2D7EAA !important; }
+
+.tab {
+  padding: 2rem; }
+  .tab__img {
+    width: 6.5rem;
+    height: 6.5rem; }
+  .tab__body {
+    margin-left: 1rem; }
+
+.media__body {
+  display: flex !important;
+  font-size: 1.4rem !important; }
+
+.accomplishment {
+  padding: 1rem;
+  border-bottom: 1px solid #C8C8C8; }
+  .accomplishment__type {
+    font-size: 1.5rem;
+    color: #2D7EAA !important;
+    font-weight: 550; }
+  .accomplishment__description {
+    font-size: 1.4rem;
+    font-weight: 400; }
+  .accomplishment__section {
+    display: inline-block !important;
+    padding: 1rem; }
+  .accomplishment__section1 p {
+    font-size: 4rem;
+    color: #2D7EAA;
+    font-weight: 600; }
+  .accomplishment__active {
+    background-color: #E5F5FC;
+    height: auto; }
+
+.section {
+  margin: 4rem 20rem 4rem 12rem;
+  width: 60%;
+  background-color: #FFFFFF;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2); }
+  .section .btn--inline {
+    margin-top: 1.5rem; }
+  .section .btn--inline,
+  .section h2 {
+    display: inline-block !important;
+    margin-top: 2.5rem; }
+  .section h2,
+  .section h3 {
+    line-height: 1.4;
+    font-weight: 400;
+    color: #1A1A1A;
+    padding-left: 1.2rem; }
+  .section h2 {
+    font-size: 2rem; }
+  .section h3 {
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+    padding-top: 2.7rem;
+    padding-left: 2.4rem;
+    color: #767676; }
+
+.skill-edit {
+  padding: 1rem !important; }
+  .skill-edit__skill {
+    font-weight: 500 !important;
+    font-size: 1.5rem !important; }
+  .skill-edit__icon {
+    font-size: 2rem !important;
+    color: #767676;
+    padding: 0.5rem; }
+
+.tooltip-inner {
+  background-color: white !important;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 6px 9px rgba(0, 0, 0, 0.2);
+  text-align: left; }
+
+.arrow::before {
+  border-bottom-color: white !important;
+  border-top-color: white !important; }
+
+.list-group {
+  margin: 1rem;
+  background-color: white !important;
+  padding-right: 4rem !important; }
+
+.list-group-item {
+  border: none !important;
+  background-color: white !important;
+  padding: 0.5rem;
+  font-weight: 550;
+  font-size: 1.5rem;
+  color: #767676; }
+
+.modal-body {
+  padding: 2rem; }
+
+.tool {
+  padding: 2rem 0 0 2.2rem;
+  letter-spacing: 0.7px;
+  line-height: 1.5;
+  font-weight: 600; }
