@@ -11,13 +11,6 @@
 html {
   font-size: 62.5%; }
 
-body {
-  font-size: 1.26rem;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  box-sizing: border-box;
-  overflow-x: hidden;
-  background-color: #F5F5F5; }
-
 .tools {
   background-color: #F3F6F8;
   margin: 0;
