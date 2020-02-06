@@ -1,0 +1,18 @@
+.skill-edit
+{
+
+    &__skill
+    {
+        font-weight: 500 !important;
+        font-size: 1.5rem !important;
+       
+    }
+    &__icon
+    {
+        font-size: 2rem !important;
+        color: $third-font-color;
+        padding: 0.5rem;
+    }
+    
+    padding: 1rem !important;
+}

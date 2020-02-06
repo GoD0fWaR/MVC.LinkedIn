@@ -1,0 +1,55 @@
+.btn{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.5rem;
+    &--show, &--arrow, &--edit,&--plus{
+        &:hover{
+            background-color: #E5F5FC;
+        }
+        
+        color: #2D7EAA !important;
+        transition: all ease-in-out 0.2ms;
+        display: none;
+       
+        
+     }
+    &--show{
+
+        &:hover{
+            background-color: #E5F5FC;
+        }
+        width: 100%;
+      
+       
+        margin: auto;
+        text-align: center;
+        padding: 1rem 0;
+        
+        border-top: 1px solid #cccccc;
+        display: none;
+    }
+    &--arrow, &--edit, &--plus{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        display: flex;
+      
+    }
+    &--arrow{
+        display: none;
+    }
+    &--add{
+        color:#7B7B7B;
+        &:hover{
+            background-color: $secondary-font-color !important;
+            color:#1A1A1A;
+        }
+    }
+    &--active{
+       display: inline-block;
+
+    }
+   
+
+}

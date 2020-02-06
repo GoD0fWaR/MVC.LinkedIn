@@ -1,0 +1,36 @@
+.accomplishment{
+    padding: 1rem;
+    border-bottom: 1px solid $secondary-font-color;
+    &__type
+    {
+        font-size: 1.5rem;
+        color: #2D7EAA !important;
+        font-weight: 550;
+      
+    }
+    &__description{
+        font-size: 1rem;
+        font-weight: 450;
+      
+    }
+   &__section{
+
+        display: inline-block !important;
+        padding: 1rem;
+    }
+    &__section1 {
+        p{
+            font-size: 4rem;
+            color: #2D7EAA;
+            font-weight: 600;
+
+        }
+   
+    }
+    
+    &__active
+    {
+        background-color:  #E5F5FC;
+        height: auto;
+    }
+}

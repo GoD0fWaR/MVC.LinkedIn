@@ -11,6 +11,13 @@
 html {
     font-size: 62.5%;
 }
-body{
+
+body
+{
+    font-size: 1.26rem;
+    font-family: $font-family;
+    box-sizing: border-box;
     overflow-x: hidden;
+    background-color: #F5F5F5;
 }
+
