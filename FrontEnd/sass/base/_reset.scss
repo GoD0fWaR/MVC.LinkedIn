@@ -2,22 +2,13 @@
 ::after,
 ::before {
     margin: 0;
-    padding: 0;    
+    padding: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 html {
     font-size: 62.5%;
 }
-
-body
-{
-    font-size: 1.26rem;
-    font-family: $font-family;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    background-color: #F5F5F5;
-}
-
