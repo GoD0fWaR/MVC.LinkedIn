@@ -1,22 +1,21 @@
 
 @import 'abstracts/variables';
-@import 'abstracts/placeholders';
 @import 'abstracts/mixins';
 @import 'abstracts/functions';
+@import 'abstracts/placeholders';
 
-@import 'base/reset.scss';
+@import 'base/reset';
 @import 'base/typography';
 @import 'base/utilities';
 
+// Ibrahim
 @import 'components/interests.scss';
 @import 'components/dashboard.scss';
 @import 'components/interests-modal.scss';
-@import 'components/item-intro';
-@import 'components/info';
-@import 'components/img-profile';
-@import 'components/link';
-@import 'components/sm-img';
-@import 'components/btn-more';
+
+// Nora
+@import 'components/Nora/profile-summary';
+
 @import 'components/profile-icon';
 @import 'components/background';
 @import 'components/btn-show.scss';

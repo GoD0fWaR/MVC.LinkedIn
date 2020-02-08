@@ -1,0 +1,52 @@
+#ProfileSummary {
+  .profile-imgs {
+    position: relative;
+    height: 200px;
+    background-image: url("../Assets/images/Cover.PNG");
+    background-size: cover;
+
+    .profile-img {
+      top: 50%;
+      padding: 0 2em;
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
+
+  .edit-profile {
+    i {
+      color: #000;
+    }
+    .add-section {
+      color: #fff;
+      i {
+        color: #fff;
+      }
+    }
+  }
+
+  .info {
+    display: flex;
+    list-style: none;
+  }
+
+  .sm-img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .user-info {
+    h2 {
+      font-size: 2.5rem;
+    }
+    h4 {
+      font-size: 2rem;
+    }
+  }
+
+  a {
+    font-size: 1.5rem;
+  }
+}
