@@ -1,32 +1,29 @@
 .tooltip-inner {
-
-    background-color:white !important;
-    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 6px 9px rgba(0,0,0,.2);
-    text-align: left;
-    
- }
- 
- .arrow::before{
-     border-bottom-color:white !important;
-     border-top-color:white !important;
-    
- }
- .list-group{
-     margin: 1rem;
-     background-color: white !important;
-     padding-right:4rem !important;
- }
-
-.list-group-item{
-    border: none !important;
-    background-color: white !important;
-    padding: 0.5rem;
-    font-weight: 550;
-    font-size: 1.5rem;
-    color: $third-font-color;
-
+  background-color: white !important;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 6px 9px rgba(0, 0, 0, 0.2);
+  text-align: left;
 }
-.modal-body
-{
-    padding: 2rem;
+
+.arrow::before {
+  border-bottom-color: white !important;
+  border-top-color: white !important;
+}
+
+.list-group {
+  margin: 1rem;
+  background-color: white !important;
+  padding-right: 4rem !important;
+}
+
+.list-group-item {
+  border: none !important;
+  background-color: white !important;
+  padding: 0.5rem;
+  font-weight: 550;
+  font-size: 1.5rem;
+  color: $third-font-color;
+}
+
+.modal-body {
+  padding: 2rem;
 }
