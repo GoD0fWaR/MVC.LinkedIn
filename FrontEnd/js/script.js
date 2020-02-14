@@ -33,3 +33,14 @@ for (var i = 0; i < arr.length; i++) {
     }
   });
 }
+
+$("#PresentWorkDate").css({ display: "none" });
+$("#CurrentlyWorking").change(function() {
+  if ($(this).is(":checked")) {
+    $("#PresentWorkDate").css({ display: "block" });
+    $("#EndWorkDate").css({ display: "none" });
+  } else {
+    $("#PresentWorkDate").css({ display: "none" });
+    $("#EndWorkDate").css({ display: "flex" });
+  }
+});

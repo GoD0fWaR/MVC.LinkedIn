@@ -36,6 +36,11 @@ body {
 .u-border-bottom {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
 
+label.required::after {
+  content: "*";
+  color: #0073b1;
+  margin-left: 2px; }
+
 .dashboard {
   display: flex;
   background-color: #f3f6f8;
