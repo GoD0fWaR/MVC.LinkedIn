@@ -1,0 +1,33 @@
+
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/functions';
+@import 'abstracts/placeholders';
+
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/utilities';
+
+// Ibrahim
+@import 'components/Ibrahim/dashboard';
+@import 'components/Ibrahim/interests';
+@import 'components/Ibrahim/interests-modal';
+
+// Nora
+@import 'components/Nora/profile-summary';
+
+// Aya
+@import 'components/Aya/background';
+@import 'components/Aya/profile-icon';
+
+// Wafaa
+@import 'components/Wafaa/section';
+@import 'components/Wafaa/skill';
+@import 'components/Wafaa/skill-edit';
+@import 'components/Wafaa/accomplishment';
+@import 'components/Wafaa/btn-show';
+@import 'components/Wafaa/nav-tab';
+@import 'components/Wafaa/tool';
+
+@import 'layout/sections.scss';
+@import 'pages/profile.scss';

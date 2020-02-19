@@ -1,0 +1,34 @@
+.skill {
+    padding: 2rem 0 1rem 1.2rem;
+    border-bottom: 1px solid #cccccc;
+    letter-spacing: 0.7px;
+    line-height: 1.5;
+    &__description {
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+    &:last-child {
+        border-bottom: none;
+    }
+    &__title {
+        padding-bottom: 1rem;
+    }
+    &__name,
+    &__no-of-endorsments {
+        display: inline-block;
+    }
+    &__name,
+    &__endorsed-person {
+        font-weight: 600;
+    }
+    &__no-of-endorsments {
+        color: $third-font-color;
+    }
+    &__endorsment-description {
+        font-weight: 400;
+    }
+    &__endorsed-person,
+    &__endorsment-description {
+        display: inline-block;
+    }
+}

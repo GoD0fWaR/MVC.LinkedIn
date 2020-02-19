@@ -1,0 +1,26 @@
+.nav-link {
+    margin-top: 1.5rem;
+    font-size: 1.4rem !important;
+    font-weight: 660;
+    color: $third-font-color;
+    &.active {
+        border-bottom: 2px solid #2D7EAA !important;
+        color: #2D7EAA !important;
+    }
+}
+
+.tab {
+    padding: 2rem;
+    &__img {
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+    &__body {
+        margin-left: 1rem;
+    }
+}
+
+.media__body {
+    display: flex !important;
+    font-size: 1.4rem !important;
+}

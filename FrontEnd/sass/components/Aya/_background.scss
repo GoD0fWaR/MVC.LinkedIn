@@ -1,0 +1,14 @@
+.background {
+  &__hide-icon {
+    &:hover {
+      .profile-icon {
+        display: inline-block;
+      }
+    }
+  }
+  &__img {
+    width: 45px;
+    height: 45px;
+    margin: auto;
+  }
+}
