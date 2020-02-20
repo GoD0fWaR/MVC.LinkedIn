@@ -1,0 +1,10 @@
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\bin\Debug\ITI.LinkedIn.Repository.dll.config
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\bin\Debug\ITI.LinkedIn.Repository.dll
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\bin\Debug\ITI.LinkedIn.Repository.pdb
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\bin\Debug\EntityFramework.dll
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\bin\Debug\EntityFramework.xml
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\obj\Debug\ITI.LinkedIn.Repository.csprojResolveAssemblyReference.cache
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\obj\Debug\ITI.LinkedIn.Repository.dll
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\obj\Debug\ITI.LinkedIn.Repository.pdb

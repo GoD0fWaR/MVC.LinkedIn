@@ -1,0 +1,16 @@
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\ITI.LinkedIn.Context.dll.config
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\ITI.LinkedIn.Context.dll
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\ITI.LinkedIn.Context.pdb
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\EntityFramework.dll
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\EntityFramework.SqlServer.dll
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\ITI.LinkedIn.Models.dll
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\ITI.LinkedIn.Models.pdb
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\EntityFramework.xml
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\EntityFramework.SqlServer.xml
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\obj\Debug\ITI.LinkedIn.Context.csprojResolveAssemblyReference.cache
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\obj\Debug\ITI.LinkedIn.Context.dll
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\obj\Debug\ITI.LinkedIn.Context.pdb
