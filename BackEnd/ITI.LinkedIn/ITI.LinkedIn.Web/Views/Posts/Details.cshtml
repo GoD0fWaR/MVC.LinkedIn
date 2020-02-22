@@ -1,0 +1,74 @@
+﻿@model Post
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Post</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Body)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Body)
+        </dd>
+
+        @if (Model.PostPhotos.Any())
+        {
+            foreach (var postPhoto in Model.PostPhotos)
+            {
+
+                <dt>
+                    Photo
+                </dt>
+                <dd>
+                    <img src="~/Content/Assets/Images/PostPhotos/@postPhoto.Date.Ticks@postPhoto.PostPhotoName" alt="" />
+                </dd>
+            }
+        }
+
+        @{
+
+            if (Model.UserLikedPosts.Any(u => u.UserId == User.Identity.GetUserId()))
+            {
+
+                using (Html.BeginForm("Delete", "UserLikedPosts", new { PostId = Model.PostId, UserId = User.Identity.GetUserId() }, FormMethod.Post))
+                {
+
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="UnLike" class="btn btn-danger" />
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                using (Html.BeginForm("Create", "UserLikedPosts", new { PostId = Model.PostId, UserId = User.Identity.GetUserId() }, FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <input type="submit" value="Like" class="btn btn-primary" />
+                        </div>
+                    </div>
+                }
+            }
+        }
+
+      
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PostId }) |
+    @Html.ActionLink("Back to List", "List")
+</p>

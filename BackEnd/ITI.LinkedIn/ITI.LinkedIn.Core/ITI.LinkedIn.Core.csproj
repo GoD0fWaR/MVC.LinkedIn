@@ -80,6 +80,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -91,6 +92,14 @@
     <Compile Include="Managers\ApplicationRoleManager.cs" />
     <Compile Include="Managers\ApplicationSignInManager.cs" />
     <Compile Include="Managers\ApplicationUserManager.cs" />
+    <Compile Include="Managers\CommentManager.cs" />
+    <Compile Include="Managers\CommentPhotoManager.cs" />
+    <Compile Include="Managers\PostManager.cs" />
+    <Compile Include="Managers\PostPhotoManager.cs" />
+    <Compile Include="Managers\ReplyManager.cs" />
+    <Compile Include="Managers\UserLikedCommentManager.cs" />
+    <Compile Include="Managers\UserLikedPostManager.cs" />
+    <Compile Include="Managers\UserLikedReplyManager.cs" />
     <Compile Include="UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

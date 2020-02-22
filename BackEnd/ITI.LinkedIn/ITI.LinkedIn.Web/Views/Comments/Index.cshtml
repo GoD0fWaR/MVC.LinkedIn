@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Comment>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Body)
+        </th>
+       
+        <th></th>
+    </tr>
+
+@foreach (var item in Model.ToList()) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Body)
+        </td>
+       
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CommentId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CommentId })
+        </td>
+        <td>
+            @{
+
+                if (item.UserLikedComments.Any(u => u.UserId == User.Identity.GetUserId()))
+                {
+
+                    using (Html.BeginForm("Delete", "UserLikedComments", new { CommentId = item.CommentId, UserId = User.Identity.GetUserId() }, FormMethod.Post))
+                    {
+
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="UnLike" class="btn btn-danger" />
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    using (Html.BeginForm("Create", "UserLikedComments", new { CommentId = item.CommentId, UserId = User.Identity.GetUserId() }, FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Like" class="btn btn-primary" />
+                            </div>
+                        </div>
+                    }
+                }
+            }
+        </td>
+    </tr>
+}
+
+</table>

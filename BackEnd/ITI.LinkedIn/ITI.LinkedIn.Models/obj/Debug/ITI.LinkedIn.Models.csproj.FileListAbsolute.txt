@@ -12,3 +12,17 @@ D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Mo
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\obj\Debug\ITI.LinkedIn.Models.csprojResolveAssemblyReference.cache
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\obj\Debug\ITI.LinkedIn.Models.dll
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\obj\Debug\ITI.LinkedIn.Models.pdb
+D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\obj\Debug\ITI.LinkedIn.Models.csprojResolveAssemblyReference.cache
+D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\obj\Debug\ITI.LinkedIn.Models.dll
+D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\obj\Debug\ITI.LinkedIn.Models.pdb
+D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\ITI.LinkedIn.Models.dll.config
+D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\ITI.LinkedIn.Models.dll
+D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\ITI.LinkedIn.Models.pdb
+D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\EntityFramework.dll
+D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\EntityFramework.xml
+D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml

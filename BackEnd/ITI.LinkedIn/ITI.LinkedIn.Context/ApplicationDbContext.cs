@@ -23,5 +23,16 @@ namespace ITI.LinkedIn.Context
         {
             return new ApplicationDbContext();
         }
+        public virtual DbSet<Post> Posts { get; set; }
+        public virtual DbSet<Comment> Comments { get; set; }
+        public virtual DbSet<Reply> Replies { get; set; }
+        public virtual DbSet<UserLikedComment> UserLikedComments { get; set; }
+        public virtual DbSet<UserLikedPost> UserLikedPosts { get; set; }
+        public virtual DbSet<UserLikedReply> UserLikedReplies { get; set; }
+        public virtual DbSet<UserSharedPost> UserSharedPosts { get; set; }
+        public virtual DbSet<CommentPhoto> CommentPhotos { get; set; }
+        public virtual DbSet<ReplyPhoto> ReplyPhotos { get; set; }
+        public virtual DbSet<PostPhoto> PostPhotos { get; set; }
+        public virtual DbSet<UserPhoto> UserPhotos { get; set; }
     }
 }
