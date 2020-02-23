@@ -30,6 +30,13 @@ namespace ITI.LinkedIn.Core
         public ApplicationUserManager ApplicationUserManager { get; }
         public ApplicationRoleManager ApplicationRoleManager { get; }
         public ApplicationSignInManager ApplicationSignInManager { get; }
+        public ProjectManager ProjectManager
+        {
+            get
+            {
+                return ProjectManager.GetInstance(context);
+            }
+        }
 
         public void Dispose()
         {

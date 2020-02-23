@@ -91,6 +91,7 @@
     <Compile Include="Managers\ApplicationRoleManager.cs" />
     <Compile Include="Managers\ApplicationSignInManager.cs" />
     <Compile Include="Managers\ApplicationUserManager.cs" />
+    <Compile Include="Managers\ProjectManager.cs" />
     <Compile Include="UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

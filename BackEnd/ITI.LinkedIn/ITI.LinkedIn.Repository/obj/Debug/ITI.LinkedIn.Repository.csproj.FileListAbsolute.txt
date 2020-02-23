@@ -8,3 +8,13 @@ D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Re
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\obj\Debug\ITI.LinkedIn.Repository.csprojResolveAssemblyReference.cache
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\obj\Debug\ITI.LinkedIn.Repository.dll
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\obj\Debug\ITI.LinkedIn.Repository.pdb
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\bin\Debug\ITI.LinkedIn.Repository.dll.config
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\bin\Debug\ITI.LinkedIn.Repository.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\bin\Debug\ITI.LinkedIn.Repository.pdb
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\bin\Debug\EntityFramework.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\bin\Debug\EntityFramework.xml
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\obj\Debug\ITI.LinkedIn.Repository.csprojResolveAssemblyReference.cache
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\obj\Debug\ITI.LinkedIn.Repository.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Repository\obj\Debug\ITI.LinkedIn.Repository.pdb

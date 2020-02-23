@@ -58,6 +58,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationDbContext.cs" />
+    <Compile Include="Migrations\202002211622356_init.cs" />
+    <Compile Include="Migrations\202002211622356_init.Designer.cs">
+      <DependentUpon>202002211622356_init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002231513553_addUserProjectEntity.cs" />
+    <Compile Include="Migrations\202002231513553_addUserProjectEntity.Designer.cs">
+      <DependentUpon>202002231513553_addUserProjectEntity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +78,14 @@
       <Project>{99f4112d-4084-46c3-85cf-0e6177d67fd0}</Project>
       <Name>ITI.LinkedIn.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202002211622356_init.resx">
+      <DependentUpon>202002211622356_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002231513553_addUserProjectEntity.resx">
+      <DependentUpon>202002231513553_addUserProjectEntity.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

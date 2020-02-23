@@ -23,5 +23,6 @@ namespace ITI.LinkedIn.Context
         {
             return new ApplicationDbContext();
         }
+        public virtual DbSet<UserProject> UserProject { get; set; }
     }
 }

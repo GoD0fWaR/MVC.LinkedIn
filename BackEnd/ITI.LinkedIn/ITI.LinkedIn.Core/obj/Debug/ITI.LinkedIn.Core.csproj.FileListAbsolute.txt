@@ -31,3 +31,36 @@ D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Co
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\obj\Debug\ITI.LinkedIn.Core.csprojResolveAssemblyReference.cache
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\obj\Debug\ITI.LinkedIn.Core.dll
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\obj\Debug\ITI.LinkedIn.Core.pdb
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Core.dll.config
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Core.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Core.pdb
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\EntityFramework.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\EntityFramework.SqlServer.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Context.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Models.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Repository.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.Owin.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.Owin.Security.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Newtonsoft.Json.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Owin.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Context.pdb
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Models.pdb
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Repository.pdb
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\EntityFramework.xml
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.Owin.xml
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.Owin.Security.xml
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Newtonsoft.Json.xml
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\obj\Debug\ITI.LinkedIn.Core.csprojResolveAssemblyReference.cache
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\obj\Debug\ITI.LinkedIn.Core.dll
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\obj\Debug\ITI.LinkedIn.Core.pdb
