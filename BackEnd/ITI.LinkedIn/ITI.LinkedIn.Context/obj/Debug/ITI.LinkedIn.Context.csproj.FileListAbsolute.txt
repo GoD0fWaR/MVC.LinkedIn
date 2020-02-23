@@ -34,3 +34,4 @@ E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\obj\D
 E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\obj\Debug\ITI.LinkedIn.Context.csproj.GenerateResource.Cache
 E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\obj\Debug\ITI.LinkedIn.Context.Migrations.addUserProjectEntity.resources
 E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\obj\Debug\ITI.LinkedIn.Context.Migrations.addUserlanguageEntity.resources
+E:\MVC\MVC Linledin\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\obj\Debug\ITI.LinkedIn.Context.Migrations.addUserEducationEntity.resources

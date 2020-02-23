@@ -25,5 +25,6 @@ namespace ITI.LinkedIn.Context
         }
         public virtual DbSet<UserProject> UserProject { get; set; }
         public virtual DbSet<Language> Language { get; set; }
+        public virtual DbSet<Education> Education { get; set; }
     }
 }

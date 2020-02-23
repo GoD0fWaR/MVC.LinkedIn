@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationUser.cs" />
+    <Compile Include="Education.cs" />
     <Compile Include="Language.cs" />
     <Compile Include="Proficiency.cs" />
     <Compile Include="UserLanguages.cs" />

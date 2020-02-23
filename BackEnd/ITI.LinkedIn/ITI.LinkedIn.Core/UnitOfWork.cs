@@ -44,6 +44,13 @@ namespace ITI.LinkedIn.Core
                 return LanguageManager.GetInstance(context);
             }
         }
+        public EducationManager EducationManager
+        {
+            get
+            {
+                return EducationManager.GetInstance(context);
+            }
+        }
 
         public void Dispose()
         {

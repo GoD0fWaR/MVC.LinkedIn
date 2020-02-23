@@ -70,6 +70,10 @@
     <Compile Include="Migrations\202002231541283_addUserlanguageEntity.Designer.cs">
       <DependentUpon>202002231541283_addUserlanguageEntity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002231559068_addUserEducationEntity.cs" />
+    <Compile Include="Migrations\202002231559068_addUserEducationEntity.Designer.cs">
+      <DependentUpon>202002231559068_addUserEducationEntity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -92,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002231541283_addUserlanguageEntity.resx">
       <DependentUpon>202002231541283_addUserlanguageEntity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002231559068_addUserEducationEntity.resx">
+      <DependentUpon>202002231559068_addUserEducationEntity.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
