@@ -66,6 +66,10 @@
     <Compile Include="Migrations\202002231513553_addUserProjectEntity.Designer.cs">
       <DependentUpon>202002231513553_addUserProjectEntity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002231541283_addUserlanguageEntity.cs" />
+    <Compile Include="Migrations\202002231541283_addUserlanguageEntity.Designer.cs">
+      <DependentUpon>202002231541283_addUserlanguageEntity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -85,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002231513553_addUserProjectEntity.resx">
       <DependentUpon>202002231513553_addUserProjectEntity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002231541283_addUserlanguageEntity.resx">
+      <DependentUpon>202002231541283_addUserlanguageEntity.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
