@@ -26,3 +26,18 @@ D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\I
 D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\EntityFramework.SqlServer.xml
 D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ibrahim\Desktop\projects\ASPMVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\ITI.LinkedIn.Models.dll.config
+C:\Users\Ibrahim\Desktop\projects\ASPMVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\ITI.LinkedIn.Models.dll
+C:\Users\Ibrahim\Desktop\projects\ASPMVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\ITI.LinkedIn.Models.pdb
+C:\Users\Ibrahim\Desktop\projects\ASPMVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\EntityFramework.dll
+C:\Users\Ibrahim\Desktop\projects\ASPMVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ibrahim\Desktop\projects\ASPMVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ibrahim\Desktop\projects\ASPMVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ibrahim\Desktop\projects\ASPMVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\EntityFramework.xml
+C:\Users\Ibrahim\Desktop\projects\ASPMVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ibrahim\Desktop\projects\ASPMVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ibrahim\Desktop\projects\ASPMVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ibrahim\Desktop\projects\ASPMVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\obj\Debug\ITI.LinkedIn.Models.csprojAssemblyReference.cache
+C:\Users\Ibrahim\Desktop\projects\ASPMVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\obj\Debug\ITI.LinkedIn.Models.csproj.CopyComplete
+C:\Users\Ibrahim\Desktop\projects\ASPMVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\obj\Debug\ITI.LinkedIn.Models.dll
+C:\Users\Ibrahim\Desktop\projects\ASPMVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Models\obj\Debug\ITI.LinkedIn.Models.pdb
