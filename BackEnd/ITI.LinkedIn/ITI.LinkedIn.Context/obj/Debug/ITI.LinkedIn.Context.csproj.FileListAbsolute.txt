@@ -30,3 +30,5 @@ D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\I
 D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\EntityFramework.SqlServer.xml
 D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\obj\Debug\ITI.LinkedIn.Context.Migrations.Init.resources
+D:\Aya 7es7es\5th ITI\19-MVC\LinkedInProject\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\obj\Debug\ITI.LinkedIn.Context.csproj.GenerateResource.Cache
