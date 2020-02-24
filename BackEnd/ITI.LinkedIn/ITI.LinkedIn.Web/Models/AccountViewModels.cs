@@ -64,6 +64,13 @@ namespace ITI.LinkedIn.Web.Models
 
     public class RegisterViewModel
     {
+
+        [Required(ErrorMessage = "First Name is Required")]
+        [MaxLength(50, ErrorMessage = "First Name must be less than 50 characters")]
+        public string FirstName { get; set; }
+        [Required(ErrorMessage = "Last Name is Required")]
+        [MaxLength(50, ErrorMessage = "Last Name must be less than 50 characters")]
+        public string LastName { get; set; }
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
