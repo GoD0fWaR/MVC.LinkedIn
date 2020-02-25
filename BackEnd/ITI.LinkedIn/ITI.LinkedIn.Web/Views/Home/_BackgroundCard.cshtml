@@ -1,0 +1,63 @@
+﻿<div class="card">
+    <div class="card-header" id="headingThree">
+        <h2 class="mb-0">
+            <a class="btn btn-link collapsed text-reset" href="#" type="button" data-toggle="collapse"
+               data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Background
+            </a>
+        </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+         data-parent="#accordionExample">
+        <div class="card-body" style="font-size: 2rem;">
+            <a class="work text-reset" href="#">
+                <div class="d-flex m-auto p-2">
+                    @*<--work experience -->*@
+                    @Html.Partial("_WorkExoerience")
+                    
+                </div>
+            </a>
+            <a class="education text-reset " href="# ">
+                <div class="d-flex m-auto p-2">
+                    @*<-- Education -->*@
+                    @Html.Partial("_Education")
+                   
+                </div>
+            </a>
+            <a class="licenses  text-reset" href="# ">
+                <div class="d-flex m-auto p-2">
+
+                    <div class="p-2" style="display:flex; align-items:center; ">
+
+                        <i class="fas fa-pager" style="margin-right: 1rem;"></i>
+                        <div class="d-block">
+                            <p>Licenses & Certifications</p>
+                            <p class="font-weight-light p-0 m-0">
+                                Showcase your expertise with your credentials.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-2" style="margin: auto 0;">
+                        <i class="far fa-plus-square"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a class="volunteer  text-reset" href="# ">
+                <div class="d-flex j m-auto p-2">
+                    <div class="p-2" style="display:flex; align-items:center; ">
+                        <i class="far fa-heart" style="margin-right: 1rem;"></i>
+                        <div class="d-block">
+                            <p class="font-weight-light p-0 m-0">3 positions on your profile.</p>
+                            <p>Work experience</p>
+                        </div>
+                    </div>
+                    <div class="p-2" style="margin: auto 0;">
+                        <i class="far fa-plus-square"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</div>
