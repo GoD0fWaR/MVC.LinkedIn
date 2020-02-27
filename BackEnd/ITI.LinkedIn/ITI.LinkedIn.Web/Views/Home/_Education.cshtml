@@ -1,11 +1,15 @@
 ﻿<div class="p-2" style="display:flex; align-items:center;">
     <i class="fas fa-university" style="margin-right: 1rem;"></i>
-    <div class="d-block">
-        <p>Education</p>
+    
+        <button type="button" class="p-2 text-reset" data-toggle="modal" data-target="#FullModal">
+            Education
+        </button>
+
         <p class="font-weight-lighter p-0 m-0">1 school in your profile.</p>
 
     </div>
-</div>
+
 <div class="p-2" style="margin: auto 0;">
     <i class="far fa-plus-square"></i>
 </div>
+@Html.Partial("_Modal")
