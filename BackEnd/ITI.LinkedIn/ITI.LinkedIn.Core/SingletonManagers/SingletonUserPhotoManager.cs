@@ -21,7 +21,7 @@ namespace ITI.LinkedIn.Core.SingletonManagers
         {
             if (manager == null)
             {
-                return new SingletonUserPhotoManager(context);
+                manager = new SingletonUserPhotoManager(context);
             }
             return manager;
         }

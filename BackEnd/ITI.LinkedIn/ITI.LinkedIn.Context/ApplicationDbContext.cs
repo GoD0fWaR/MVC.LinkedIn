@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
 using ITI.LinkedIn.Models;
+using ITI.LinkedIn.Models.PivotModels;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -21,6 +22,7 @@ namespace ITI.LinkedIn.Context
         public virtual DbSet<Course> Courses { get; set; }
         public virtual DbSet<EmploymentType> EmploymentTypes { get; set; }
         public virtual DbSet<UserPhoto> UserPhotos { get; set; }
+        public virtual DbSet<UserConnection> UserConnections { get; set; }
 
         public static ApplicationDbContext Create()
         {
