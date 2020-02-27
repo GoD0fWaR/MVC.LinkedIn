@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ITI.LinkedIn.Core.SingletonManagers
 {
-    public class SingletonUserConnectionManager : Repository<UserConnection, ApplicationDbContext>
+    public class SingletonUserConnectionManager : Repository<UserConnection, ApplicationDbContext>, IDisposable
     {
         static SingletonUserConnectionManager manager;
 
@@ -24,6 +24,11 @@ namespace ITI.LinkedIn.Core.SingletonManagers
                 manager = new SingletonUserConnectionManager(context);
             }
             return manager;
+        }
+
+        public void Dispose()
+        {
+            manager = null;
         }
     }
 }

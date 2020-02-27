@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ITI.LinkedIn.Core.SingletonManagers
 {
-    public class SingletonSkillManager : Repository<Skill, ApplicationDbContext>
+    public class SingletonSkillManager : Repository<Skill, ApplicationDbContext>, IDisposable
     {
         static SingletonSkillManager manager;
 
@@ -24,6 +24,11 @@ namespace ITI.LinkedIn.Core.SingletonManagers
                 manager = new SingletonSkillManager(context);
             }
             return manager;
+        }
+
+        public void Dispose()
+        {
+            manager = null;
         }
     }
 }

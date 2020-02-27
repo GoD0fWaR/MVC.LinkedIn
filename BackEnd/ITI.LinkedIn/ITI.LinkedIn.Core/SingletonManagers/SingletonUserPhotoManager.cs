@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ITI.LinkedIn.Core.SingletonManagers
 {
-    public class SingletonUserPhotoManager : Repository<UserPhoto, ApplicationDbContext>
+    public class SingletonUserPhotoManager : Repository<UserPhoto, ApplicationDbContext>, IDisposable
     {
         static SingletonUserPhotoManager manager;
 
@@ -24,6 +24,11 @@ namespace ITI.LinkedIn.Core.SingletonManagers
                 manager = new SingletonUserPhotoManager(context);
             }
             return manager;
+        }
+
+        public void Dispose()
+        {
+            manager = null;
         }
     }
 }
