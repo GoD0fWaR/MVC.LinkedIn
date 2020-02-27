@@ -27,7 +27,7 @@ namespace ITI.LinkedIn.Core
         {
             return new UnitOfWork(owinContext);
         }
-
+        #region Hossam
         public SingletonSkillManager SkillManager
         {
             get
@@ -63,6 +63,17 @@ namespace ITI.LinkedIn.Core
                 return SingletonUserConnectionManager.GetInstance(context);
             }
         }
+        #endregion
+
+        #region Nora
+        public UserProjectManager UserProjectManager
+        {
+            get
+            {
+                return UserProjectManager.GetInstance(context);
+            }
+        }
+        #endregion
 
         public ApplicationUserManager ApplicationUserManager { get; }
         public ApplicationRoleManager ApplicationRoleManager { get; }

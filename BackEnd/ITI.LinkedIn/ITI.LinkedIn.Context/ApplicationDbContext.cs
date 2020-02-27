@@ -18,11 +18,17 @@ namespace ITI.LinkedIn.Context
         }
 
         // To add a new Model
+        #region Hossam
         public virtual DbSet<Skill> Skills { get; set; }
         public virtual DbSet<Course> Courses { get; set; }
         public virtual DbSet<EmploymentType> EmploymentTypes { get; set; }
         public virtual DbSet<UserPhoto> UserPhotos { get; set; }
         public virtual DbSet<UserConnection> UserConnections { get; set; }
+        #endregion
+
+        #region Nora
+        public virtual DbSet<UserProject> UserProject { get; set; }
+        #endregion
 
         public static ApplicationDbContext Create()
         {
