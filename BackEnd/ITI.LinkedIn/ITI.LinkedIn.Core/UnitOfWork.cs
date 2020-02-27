@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ITI.LinkedIn.Core.SingletonManagers;
 
 namespace ITI.LinkedIn.Core
 {
@@ -25,6 +26,42 @@ namespace ITI.LinkedIn.Core
         public static UnitOfWork Create(IdentityFactoryOptions<UnitOfWork> options, IOwinContext owinContext)
         {
             return new UnitOfWork(owinContext);
+        }
+
+        public SingletonSkillManager SkillManager
+        {
+            get
+            {
+                return SingletonSkillManager.GetInstance(context);
+            }
+        }
+        public SingletonCourseManager CourseManager
+        {
+            get
+            {
+                return SingletonCourseManager.GetInstance(context);
+            }
+        }
+        public SingletonEmploymentTypeManager EmploymentTypeManager
+        {
+            get
+            {
+                return SingletonEmploymentTypeManager.GetInstance(context);
+            }
+        }
+        public SingletonUserPhotoManager UserPhotoManager
+        {
+            get
+            {
+                return SingletonUserPhotoManager.GetInstance(context);
+            }
+        }
+        public SingletonUserConnectionManager UserConnectionManager
+        {
+            get
+            {
+                return SingletonUserConnectionManager.GetInstance(context);
+            }
         }
 
         public ApplicationUserManager ApplicationUserManager { get; }
