@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ITI.LinkedIn.Models
+namespace ITI.LinkedIn.Models.PivotModels
 {
     [Table("UserLanguage")]
     public class UserLanguage
