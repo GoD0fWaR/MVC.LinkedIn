@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="ApplicationUser.cs" />
     <Compile Include="Course.cs" />
+    <Compile Include="Education.cs" />
     <Compile Include="EmploymentType.cs" />
     <Compile Include="Enums\Proficiency.cs" />
     <Compile Include="Language.cs" />

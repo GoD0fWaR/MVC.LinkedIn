@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ITI.LinkedIn.Models.PivotModels;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;

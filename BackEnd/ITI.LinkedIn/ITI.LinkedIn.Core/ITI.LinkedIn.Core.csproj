@@ -91,12 +91,14 @@
     <Compile Include="Managers\ApplicationRoleManager.cs" />
     <Compile Include="Managers\ApplicationSignInManager.cs" />
     <Compile Include="Managers\ApplicationUserManager.cs" />
+    <Compile Include="SingletonManagers\EducationManager.cs" />
     <Compile Include="SingletonManagers\LanguageManager.cs" />
     <Compile Include="SingletonManagers\SingletonCourseManager.cs" />
     <Compile Include="SingletonManagers\SingletonEmploymentTypeManager.cs" />
     <Compile Include="SingletonManagers\SingletonSkillManager.cs" />
     <Compile Include="SingletonManagers\SingletonUserConnectionManager.cs" />
     <Compile Include="SingletonManagers\SingletonUserPhotoManager.cs" />
+    <Compile Include="SingletonManagers\UserLanguageManager.cs" />
     <Compile Include="SingletonManagers\UserProjectManager.cs" />
     <Compile Include="UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
