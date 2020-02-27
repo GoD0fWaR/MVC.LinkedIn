@@ -20,6 +20,7 @@ namespace ITI.LinkedIn.Context
         public virtual DbSet<Skill> Skills { get; set; }
         public virtual DbSet<Course> Courses { get; set; }
         public virtual DbSet<EmploymentType> EmploymentTypes { get; set; }
+        public virtual DbSet<UserPhoto> UserPhotos { get; set; }
 
         public static ApplicationDbContext Create()
         {
