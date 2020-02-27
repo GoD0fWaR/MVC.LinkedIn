@@ -30,6 +30,7 @@ namespace ITI.LinkedIn.Context
         public virtual DbSet<UserProject> UserProjects { get; set; }
         public virtual DbSet<Language> Languages { get; set; }
         public virtual DbSet<UserLanguage> UserLanguages { get; set; }
+        public virtual DbSet<Education> Educations { get; set; }
         #endregion
 
         public static ApplicationDbContext Create()
