@@ -18,6 +18,7 @@ namespace ITI.LinkedIn.Context
 
         // To add a new Model
         public virtual DbSet<Skill> Skills { get; set; }
+        public virtual DbSet<Course> Courses { get; set; }
 
         public static ApplicationDbContext Create()
         {
