@@ -60,10 +60,14 @@
     <Compile Include="ApplicationUser.cs" />
     <Compile Include="Course.cs" />
     <Compile Include="EmploymentType.cs" />
+    <Compile Include="Enums\Proficiency.cs" />
+    <Compile Include="Language.cs" />
     <Compile Include="PivotModels\UserConnection.cs" />
+    <Compile Include="PivotModels\UserLanguage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Skill.cs" />
     <Compile Include="UserPhoto.cs" />
+    <Compile Include="UserProject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

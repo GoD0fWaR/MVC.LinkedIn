@@ -27,7 +27,9 @@ namespace ITI.LinkedIn.Context
         #endregion
 
         #region Nora
-        public virtual DbSet<UserProject> UserProject { get; set; }
+        public virtual DbSet<UserProject> UserProjects { get; set; }
+        public virtual DbSet<Language> Languages { get; set; }
+        public virtual DbSet<UserLanguage> UserLanguages { get; set; }
         #endregion
 
         public static ApplicationDbContext Create()

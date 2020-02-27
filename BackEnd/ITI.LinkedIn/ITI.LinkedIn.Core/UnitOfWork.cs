@@ -73,6 +73,13 @@ namespace ITI.LinkedIn.Core
                 return UserProjectManager.GetInstance(context);
             }
         }
+        public LanguageManager LanguageManager
+        {
+            get
+            {
+                return LanguageManager.GetInstance(context);
+            }
+        }
         #endregion
 
         public ApplicationUserManager ApplicationUserManager { get; }
