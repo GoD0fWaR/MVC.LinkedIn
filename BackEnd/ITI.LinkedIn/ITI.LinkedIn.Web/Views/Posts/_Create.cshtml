@@ -1,0 +1,61 @@
+﻿@model PostViewModel
+
+<div class="modal fade" id="post" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="mypost">
+                    <div class="mypost-header">
+                        <h2>Create a post</h2>
+                        <button type="button" class="close mypost-close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div>
+                        @using (Html.BeginForm("Create", "Posts", null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+                        {
+                            <div class="mypost-body">
+                                <div class="mypost-body_top">
+                                    <div class="mypost-profilepic"></div>
+                                    <span> @User.Identity.GetUserName()</span>
+                                </div>
+                                @Html.AntiForgeryToken()
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                <div class="mypost-body_middle">
+                                    @Html.TextAreaFor(model => model.Body, new { @class = "form-control", id = "textEditor", placeholder = "What do you want to talk about?", rows = "12" })
+                                    @Html.ValidationMessageFor(model => model.Body, "", new { @class = "text-danger" })
+                                <div id="submit-post-photo-container">
+
+                                </div>
+                                </div>
+                                <div class="mypost-body_bottom">
+                                    <div class="mypost-body_bottomContent">
+                                        <button class="mypost-hashtag">Add hashtag</button>
+                                        <span>Help the right people see your post</span>
+                                    </div>
+                                </div>
+
+                                <div class="mypost-footer">
+                                    <div class="mypost-footer_media">
+                                        @*<button class="button button-icons button-footer">*@
+                                            <label class="mypost-label button button-icons button-footer" data-toggle="modal" data-target="#picture">
+                                                <i class="fas fa-camera"></i>
+                                                @Html.TextBoxFor(model => model.PostPhotos, "", new { @type = "file", @multiple = "multiple",id= "edit-post-photo" })
+                                                @Html.ValidationMessageFor(model => model.PostPhotos, "", new { @class = "text-danger" })
+                                            </label>
+                                       @* </button>*@
+
+                                    </div>
+                                <div class="mypost-footer_publish">
+                                    <button class="mypost-footer_publish-btn mypost-footer_publishEnabele mypost-footer_publishDisable">Post</button>
+                                </div>
+                                </div>
+
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

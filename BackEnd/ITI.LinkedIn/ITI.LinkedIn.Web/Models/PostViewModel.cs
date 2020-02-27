@@ -1,4 +1,5 @@
 ﻿
+using ITI.LinkedIn.Models;
 using ITI.LinkedIn.Models.CustomValidators;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,8 @@ namespace ITI.LinkedIn.Web.Models
         {
             PostPhotos = new List<HttpPostedFileBase>();
         }
+        public IQueryable<Post> Posts { get; set; }
+
         public int PostId { get; set; }
 
         

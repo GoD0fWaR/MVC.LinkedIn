@@ -860,3 +860,7 @@ input[type="file"] {
   color: rgba(0, 0, 0, 0.6); }
 
 /*# sourceMappingURL=main.css.map */
+.uploaded-image
+{
+    max-height:60px;
+}

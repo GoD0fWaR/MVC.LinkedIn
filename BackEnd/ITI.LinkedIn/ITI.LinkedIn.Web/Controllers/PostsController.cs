@@ -30,9 +30,12 @@ namespace ITI.LinkedIn.Web.Controllers
         [AllowAnonymous]
         public ActionResult List()
         {
-            IEnumerable<Post> posts = unit.PostManager.GetAll();
-            //return View(posts);
-            return View("NewsFeed");
+            PostViewModel postModel = new PostViewModel()
+            {
+
+                Posts = unit.PostManager.GetAll()
+            };
+            return View("NewsFeed",postModel);
         }
         [HttpGet]
         [AllowAnonymous]
@@ -46,11 +49,11 @@ namespace ITI.LinkedIn.Web.Controllers
             }
             return View(post);
         }
-        [HttpGet]
-        public ActionResult Create()
-        {
-            return View();
-        }
+        //[HttpGet]
+        //public ActionResult Create()
+        //{
+        //    return View();
+        //}
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(PostViewModel model)

@@ -1,9 +1,9 @@
-﻿
+﻿@model PostViewModel
+
 @{
     ViewBag.Title = "NewsFeed";
 }
 
-<h2>NewsFeed</h2>
 
 <div class=" container row mt-5 mx-auto">
     <div class="col-md-4 col-lg-4 col-sm-4">
@@ -44,7 +44,7 @@
     <div class="col-md-6 col-lg-6 col-sm-6">
         <div class="create-post ">
             <div class="writePost">
-                <button class="button button-post button-border" data-toggle="modal" data-target="#post">
+                <button class="button button-post button-border" data-toggle="modal" data-target="#post" id="startPost">
                     <i class="far fa-edit post-icon"></i>
                     <span>Start a post</span>
                 </button>
@@ -70,65 +70,12 @@
             <div class="article">
                 <a href="#">Write an article </a>on LinkedIn
             </div>
-            <div class="modal fade" id="post" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-scrollable" role="document">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <div class="mypost">
-                                <div class="mypost-header">
-                                    <h2>Create a post</h2>
-                                    <button type="button" class="close mypost-close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    <!-- <div class="post-close">
-                                        <i class="fas fa-times"></i>
-                                    </div> -->
-                                </div>
-                                <div class="mypost-body">
-                                    <div class="mypost-body_top">
-                                        <div class="mypost-profilepic"></div>
-                                        <span>UserName</span>
-                                    </div>
-                                    <div class="mypost-body_middle">
-                                        <textarea name="post-text" id="textEditor" rows="12" placeholder="What do you want to talk about?"></textarea>
-                                    </div>
-                                    <div class="mypost-body_bottom">
-                                        <div class="mypost-body_bottomContent">
-                                            <button class="mypost-hashtag">Add hashtag</button>
-                                            <span>Help the right people see your post</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mypost-footer">
-                                    <div class="mypost-footer_media">
-                                        <button class="button button-icons button-footer">
-                                            <label class="mypost-label" data-toggle="modal" data-target="#picture">
-                                                <i class="fas fa-camera"></i>
-                                                <input type="file" multiple />
-                                            </label>
-                                        </button>
-                                        <button class="button button-icons button-footer">
-                                            <label class="mypost-label" data-toggle="modal" data-target="#video">
-                                                <i class="fas fa-video"></i>
-                                                <input type="file" multiple />
-                                            </label>
-                                        </button>
-                                        <button class="button button-icons button-footer">
-                                            <label class="mypost-label" data-toggle="modal" data-target="#document">
-                                                <i class="far fa-file-alt"></i>
-                                                <input type="file" multiple />
-                                            </label>
-                                        </button>
-                                    </div>
-                                    <div class="mypost-footer_publish">
-                                        <button class="mypost-footer_publish-btn mypost-footer_publishEnabele mypost-footer_publishDisable">Post</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+
+            @Html.Partial("_Create",Model)
+
+
+
 
             <div class="modal fade" id="picture" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-scrollable" role="document">
@@ -142,16 +89,11 @@
                                     </div>
                                     <h2 class="postattach__Title">Edit your photo</h2>
                                 </div>
-                                <div class="postattach--select">
-                                    <button class="postattach--select--content">
-                                        <label class="mypost-label">
-                                            <input type="file" multiple />
-                                            Select images to share
-                                        </label>
-                                    </button>
+                                <div class="postattach--select" id="edit-post-photo-container">
+                                   
                                 </div>
                                 <div class="postattach--footer">
-                                    <button class="postattach--footer--btn postattach--footer--nextenabled">Next</button>
+                                    <button class="postattach--footer--btn postattach--footer--nextenabled" " data-target="#post" id="next-button" data-dismiss="modal" >Next</button>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +122,7 @@
                                     </button>
                                 </div>
                                 <div class="postattach--footer">
-                                    <button class="postattach--footer--btn postattach--footer--nextenabled">Next</button>
+                                    <button class="postattach--footer--btn postattach--footer--nextenabled" data-dismiss="modal" aria-label="Close">Next</button>
                                 </div>
                             </div>
                         </div>
@@ -404,4 +346,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-2 col-lg-2 col-sm-2"> </div>
+    </div>
+</div>
+<div class="col-md-2 col-lg-2 col-sm-2"> </div>
+@section NewsFeedScript{
+    <script src="~/Content/JS/NewsFeedScript.js"></script>
+}

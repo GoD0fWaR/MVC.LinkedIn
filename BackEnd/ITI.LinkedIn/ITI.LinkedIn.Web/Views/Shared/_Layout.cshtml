@@ -13,6 +13,20 @@
     @*<link rel="stylesheet"
         href="~/Content/bootstrap-4.0.0-dist/css/bootstrap.css"/>*@
     <link rel="stylesheet" href="~/Content/css/NewsFeed.css">
+    <style>
+
+        textarea {
+    border: none !important;
+    overflow: auto !important;
+    outline: none !important;
+
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+
+    resize: none !important; /*remove the resize handle on the bottom right*/
+}
+    </style>
 
 </head>
 <body>
@@ -74,6 +88,7 @@
     @Scripts.Render("~/bundles/jquery")
     @*@Scripts.Render("~/bundles/bootstrap")*@
     @RenderSection("scripts", required: false)
+    @RenderSection("NewsFeedScript", required: false)
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
