@@ -87,4 +87,10 @@ D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.We
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Web\obj\Debug\ITI.LinkedIn.Web.pdb
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Web\bin\ITI.LinkedIn.Repository.dll
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Web\bin\ITI.LinkedIn.Repository.pdb
-D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Web\obj\Debug\ITI.LinkedIn.Web.csprojResolveAssemblyReference.cache
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Web\bin\ITI.LinkedIn.Context.dll.config
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Web\bin\ITI.LinkedIn.Core.dll.config
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Web\bin\ITI.LinkedIn.Models.dll.config
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Web\bin\ITI.LinkedIn.Repository.dll.config
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Web\obj\Debug\ITI.LinkedIn.Web.csprojAssemblyReference.cache
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Web\obj\Debug\ITI.LinkedIn.Web.csproj.CoreCompileInputs.cache
+D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Web\obj\Debug\ITI.LinkedIn.Web.csproj.CopyComplete
