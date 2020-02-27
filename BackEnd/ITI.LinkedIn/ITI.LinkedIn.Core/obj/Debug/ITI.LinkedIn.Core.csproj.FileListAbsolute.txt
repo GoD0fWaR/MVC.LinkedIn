@@ -31,3 +31,36 @@ D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Co
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\obj\Debug\ITI.LinkedIn.Core.csprojResolveAssemblyReference.cache
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\obj\Debug\ITI.LinkedIn.Core.dll
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\obj\Debug\ITI.LinkedIn.Core.pdb
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Core.dll.config
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Core.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Core.pdb
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\EntityFramework.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Context.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Models.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Repository.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.Owin.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Owin.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Context.pdb
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Models.pdb
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\ITI.LinkedIn.Repository.pdb
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\EntityFramework.xml
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.Owin.xml
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\obj\Debug\ITI.LinkedIn.Core.csprojResolveAssemblyReference.cache
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\obj\Debug\ITI.LinkedIn.Core.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Core\obj\Debug\ITI.LinkedIn.Core.pdb

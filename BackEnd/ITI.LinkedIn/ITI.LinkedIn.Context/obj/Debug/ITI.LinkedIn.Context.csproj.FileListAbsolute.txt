@@ -14,3 +14,19 @@ D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Co
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\obj\Debug\ITI.LinkedIn.Context.csprojResolveAssemblyReference.cache
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\obj\Debug\ITI.LinkedIn.Context.dll
 D:\Hossam\ITI\18 - MVC\Project\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\obj\Debug\ITI.LinkedIn.Context.pdb
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\ITI.LinkedIn.Context.dll.config
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\ITI.LinkedIn.Context.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\ITI.LinkedIn.Context.pdb
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\EntityFramework.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\ITI.LinkedIn.Models.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\ITI.LinkedIn.Models.pdb
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\EntityFramework.xml
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\obj\Debug\ITI.LinkedIn.Context.csprojResolveAssemblyReference.cache
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\obj\Debug\ITI.LinkedIn.Context.dll
+C:\Users\Wafaa\Documents\GitHub\MVC.LinkedIn\BackEnd\ITI.LinkedIn\ITI.LinkedIn.Context\obj\Debug\ITI.LinkedIn.Context.pdb
