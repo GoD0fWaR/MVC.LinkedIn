@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.LinkedIn.Web", "ITI.LinkedIn.Web\ITI.LinkedIn.Web.csproj", "{67A056A7-C158-4F54-843E-C3A70DD0CEA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.LinkedIn.Context", "ITI.LinkedIn.Context\ITI.LinkedIn.Context.csproj", "{098EFB50-7C82-4D41-81E5-39135AD3CD58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.LinkedIn.Models", "ITI.LinkedIn.Models\ITI.LinkedIn.Models.csproj", "{99F4112D-4084-46C3-85CF-0E6177D67FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.LinkedIn.Repository", "ITI.LinkedIn.Repository\ITI.LinkedIn.Repository.csproj", "{AD016C2A-BA3E-4947-9E1D-657459A8A8D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.LinkedIn.Core", "ITI.LinkedIn.Core\ITI.LinkedIn.Core.csproj", "{446F50E7-10F2-429E-A2E1-8365FB55EAE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67A056A7-C158-4F54-843E-C3A70DD0CEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A056A7-C158-4F54-843E-C3A70DD0CEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A056A7-C158-4F54-843E-C3A70DD0CEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A056A7-C158-4F54-843E-C3A70DD0CEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{098EFB50-7C82-4D41-81E5-39135AD3CD58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{098EFB50-7C82-4D41-81E5-39135AD3CD58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{098EFB50-7C82-4D41-81E5-39135AD3CD58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{098EFB50-7C82-4D41-81E5-39135AD3CD58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99F4112D-4084-46C3-85CF-0E6177D67FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F4112D-4084-46C3-85CF-0E6177D67FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F4112D-4084-46C3-85CF-0E6177D67FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F4112D-4084-46C3-85CF-0E6177D67FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD016C2A-BA3E-4947-9E1D-657459A8A8D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD016C2A-BA3E-4947-9E1D-657459A8A8D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD016C2A-BA3E-4947-9E1D-657459A8A8D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD016C2A-BA3E-4947-9E1D-657459A8A8D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{446F50E7-10F2-429E-A2E1-8365FB55EAE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446F50E7-10F2-429E-A2E1-8365FB55EAE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446F50E7-10F2-429E-A2E1-8365FB55EAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446F50E7-10F2-429E-A2E1-8365FB55EAE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
