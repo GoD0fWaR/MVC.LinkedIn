@@ -71,7 +71,8 @@ namespace ITI.LinkedIn.Web.Controllers
                     UserId = User.Identity.GetUserId(),
                 };
                 unit.PostManager.Add(post);
-                return RedirectToAction("List");
+                post.User = unit.ApplicationUserManager.FindById(post.UserId);
+                return PartialView("_NewPost",post);
             }
             return View(model);
         }

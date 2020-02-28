@@ -1,19 +1,23 @@
+
+
 //var addHashtag = document.querySelector('.mypost-hashtag');
 //addHashtag.addEventListener('click', function (e) {
 //    document.getElementById('textEditor').value += "#";
 //});
+//const commentInput = document.querySelector(".inputComment");
+//const commentContainer = document.querySelector(".comment-sec");
+//var commentLayout = 
+//    `<div class="row "><img class="post-profile-img mt-4 " src="unnamed.jpg"><div class="col-sm-10 mt-3 mr-0"><div class="card comment"><div class="card-body"> <div class="comment--header"><a class="card-title comment--auther " href="#">Special title treatment </a><div class="options-sec"><p class="text-right font-weight-light comment--operation"> 13h <i class="fas fa-ellipsis-h option-click " id="comment-option-click"></i> </p><div class="card comment-options" id="comment-options-list" style="width: 15rem;"><div class="card-body pt-2 pb-1 "><p class="card-text "> <i class="fas fa-link"></i> Copy Link to Comment</p><p class="card-text"> <i class="far fa-flag"></i> Report</p><p class="card-text"> <i class="fas fa-pen"></i> Edit</p><p class="card-text" data-toggle="modal" data-target="#exampleModalScrollable"> <i class="fas fa-trash"></i> Delete</p></div></div></div></div><p class="font-weight-light comment--auth-job">Light weight text.</p><p class="card-text comment--text"></p></div></div></div></div> <!--End Comment--><!-- React--><div class="row "><div class="col-sm-6 ml-5 "><div class="card comment-bar "><div class="card-body pt-1"><i class="far fa-thumbs-up pr-2 comment-like"></i> <span class="line"><span class="font-weight-light likes-no">.1 Like</span> </span><i class="far fa-comment-alt pl-3"></i></div></div></div></div><!--End React-->`;
 
 //var onAddBtn = function (e) {
-//    //1.get Data from input fields
-//    var inputComment = document.querySelector(".inputComment").value;
-//    document.querySelector('.comment-sec').style.display = 'block';
-//    document.querySelector('.comment--text').innerHTML += inputComment;
-//    console.log(inputComment);
-//    console.log(onAddBtn);
+//    var commentValue = commentInput.value;
+//    if (commentContainer.childElementCount === 0) {
+//        commentContainer.inner
+//    }
 
 //};
 
-//document.addEventListener('keypress', function (event) {
+//commentInput.addEventListener('keypress', function (event) {
 //    if (event.keyCode === 13 || event.which === 13) {
 //        onAddBtn(event);
 //    }
@@ -26,13 +30,19 @@
 
 //});
 
-//document.querySelector('.option-click').addEventListener('click', function () {
-//    document.querySelector('.comment-options').classList.toggle('d-block');
-//});
+// dropdownList for post options
+document.getElementById('post-option-click').addEventListener('click', function () {
+    document.getElementById('post-options-list').classList.toggle('d-block');
+});
 
-//$('#myModal').on('shown.bs.modal', function () {
-//    $('#myInput').trigger('focus')
-//})
+// dropdownList for comment options
+document.getElementById('comment-option-click').addEventListener('click', function () {
+    document.getElementById('comment-options-list').classList.toggle('d-block');
+});
+
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+})
 
 
 ////////////////////////////SELECTORS//////////////////////////////////
@@ -87,7 +97,6 @@ selectPhoto.addEventListener("change", handleFiles, false);
 // function to handle uploaded images and fire trigger for nextbutton and check for next button availibilty
 function handleFiles() {
     const fileList = this.files; /* work with the file list */
-    console.log(fileList);
     // hide the postModal behind pictureModal
     // chech next button 
     if (fileList != null) {
@@ -96,6 +105,7 @@ function handleFiles() {
         displayFileListInContainer(fileList, editPostPhotoContainer);
 
         nextButton.addEventListener("click", callPostModal(fileList, submitPostPhotoContainer));
+        console.log(fileList);
         validatePostButton(true);
     } else {
         validatePostButton(false)
@@ -137,4 +147,12 @@ function validatePostButton(flag) {
         document.querySelector('.mypost-footer_publish-btn').classList.add('mypost-footer_publishDisable');
     }
 
+}
+
+
+//called on ajax success of creating new post
+function onCreatingPost()
+{
+    $("#post").modal("hide");
+    document.getElementById("form0").reset();
 }

@@ -1,5 +1,17 @@
 ﻿@model PostViewModel
 
+
+@{ 
+    AjaxOptions options = new AjaxOptions()
+    {
+        HttpMethod = "POST",
+        OnSuccess= "onCreatingPost()",
+        //Confirm="Add post?",
+        UpdateTargetId= "posts-container",
+        InsertionMode=InsertionMode.InsertBefore
+
+    };
+}
 <div class="modal fade" id="post" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable" role="document">
         <div class="modal-content">
@@ -12,7 +24,7 @@
                         </button>
                     </div>
                     <div>
-                        @using (Html.BeginForm("Create", "Posts", null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+                        @using (Ajax.BeginForm("Create","Posts",null,options, new { enctype = "multipart/form-data" }))
                         {
                             <div class="mypost-body">
                                 <div class="mypost-body_top">
@@ -47,7 +59,8 @@
 
                                     </div>
                                 <div class="mypost-footer_publish">
-                                    <button class="mypost-footer_publish-btn mypost-footer_publishEnabele mypost-footer_publishDisable">Post</button>
+                                   @* <button class="mypost-footer_publish-btn mypost-footer_publishEnabele mypost-footer_publishDisable">Post</button>*@
+                                    <input type="submit" class="mypost-footer_publish-btn mypost-footer_publishEnabele mypost-footer_publishDisable" value="Post"/>
                                 </div>
                                 </div>
 
