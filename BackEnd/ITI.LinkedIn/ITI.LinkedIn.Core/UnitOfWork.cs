@@ -7,7 +7,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ITI.LinkedIn.Core.SingletonManagers;
 
 namespace ITI.LinkedIn.Core
 {
@@ -92,6 +91,44 @@ namespace ITI.LinkedIn.Core
             get
             {
                 return EducationManager.GetInstance(context);
+            }
+        }
+        #endregion
+
+        #region Wafaa
+        public ExperienceManager ExperienceManager
+        {
+            get
+            {
+                return ExperienceManager.GetInstance(context);
+            }
+        }
+        public CountryManager CountryManager
+        {
+            get
+            {
+                return CountryManager.GetInstance(context);
+            }
+        }
+        public CompanyManager CompanyManager
+        {
+            get
+            {
+                return CompanyManager.GetInstance(context);
+            }
+        }
+        public JobManager JobManager
+        {
+            get
+            {
+                return JobManager.GetInstance(context);
+            }
+        }
+        public CertificationManager CertificationManager
+        {
+            get
+            {
+                return CertificationManager.GetInstance(context);
             }
         }
         #endregion

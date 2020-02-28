@@ -33,6 +33,14 @@ namespace ITI.LinkedIn.Context
         public virtual DbSet<Education> Educations { get; set; }
         #endregion
 
+        #region Wafaa
+        public virtual DbSet<Experience> Experiences { get; set; }
+        public virtual DbSet<Country> Countries { get; set; }
+        public virtual DbSet<Company> Companies { get; set; }
+        public virtual DbSet<Job> Jobs { get; set; }
+        public virtual DbSet<Certification> Certifications { get; set; }
+        #endregion
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
