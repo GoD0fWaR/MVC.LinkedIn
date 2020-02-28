@@ -9,19 +9,19 @@ using System.Threading.Tasks;
 
 namespace ITI.LinkedIn.Core.Managers
 {
-    public class UserLanguageManager : Repository<UserLanguage, ApplicationDbContext>, IDisposable
+    public class UserConnectionManager : Repository<UserConnection, ApplicationDbContext>, IDisposable
     {
-        static UserLanguageManager manager;
+        static UserConnectionManager manager;
 
-        private UserLanguageManager(ApplicationDbContext context) : base(context)
+        private UserConnectionManager(ApplicationDbContext context) : base(context)
         {
         }
 
-        public static UserLanguageManager GetInstance(ApplicationDbContext context)
+        public static UserConnectionManager GetInstance(ApplicationDbContext context)
         {
             if (manager == null)
             {
-                manager = new UserLanguageManager(context);
+                manager = new UserConnectionManager(context);
             }
             return manager;
         }

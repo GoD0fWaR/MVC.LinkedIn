@@ -1,5 +1,5 @@
 ﻿using ITI.LinkedIn.Context;
-using ITI.LinkedIn.Models.PivotModels;
+using ITI.LinkedIn.Models;
 using ITI.LinkedIn.Repository;
 using System;
 using System.Collections.Generic;
@@ -9,19 +9,19 @@ using System.Threading.Tasks;
 
 namespace ITI.LinkedIn.Core.Managers
 {
-    public class UserLanguageManager : Repository<UserLanguage, ApplicationDbContext>, IDisposable
+    public class EmploymentTypeManager : Repository<EmploymentType, ApplicationDbContext>, IDisposable
     {
-        static UserLanguageManager manager;
+        static EmploymentTypeManager manager;
 
-        private UserLanguageManager(ApplicationDbContext context) : base(context)
+        private EmploymentTypeManager(ApplicationDbContext context) : base(context)
         {
         }
 
-        public static UserLanguageManager GetInstance(ApplicationDbContext context)
+        public static EmploymentTypeManager GetInstance(ApplicationDbContext context)
         {
             if (manager == null)
             {
-                manager = new UserLanguageManager(context);
+                manager = new EmploymentTypeManager(context);
             }
             return manager;
         }

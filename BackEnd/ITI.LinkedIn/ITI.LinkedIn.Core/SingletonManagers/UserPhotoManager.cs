@@ -7,21 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ITI.LinkedIn.Core.SingletonManagers
+namespace ITI.LinkedIn.Core.Managers
 {
-    public class SingletonCourseManager : Repository<Course, ApplicationDbContext>, IDisposable
+    public class UserPhotoManager : Repository<UserPhoto, ApplicationDbContext>, IDisposable
     {
-        static SingletonCourseManager manager;
+        static UserPhotoManager manager;
 
-        private SingletonCourseManager(ApplicationDbContext context) : base(context)
+        private UserPhotoManager(ApplicationDbContext context) : base(context)
         {
         }
 
-        public static SingletonCourseManager GetInstance(ApplicationDbContext context)
+        public static UserPhotoManager GetInstance(ApplicationDbContext context)
         {
             if (manager == null)
             {
-                manager = new SingletonCourseManager(context);
+                manager = new UserPhotoManager(context);
             }
             return manager;
         }

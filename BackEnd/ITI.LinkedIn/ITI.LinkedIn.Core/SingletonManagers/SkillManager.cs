@@ -7,21 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ITI.LinkedIn.Core.SingletonManagers
+namespace ITI.LinkedIn.Core.Managers
 {
-    public class SingletonSkillManager : Repository<Skill, ApplicationDbContext>, IDisposable
+    public class SkillManager : Repository<Skill, ApplicationDbContext>, IDisposable
     {
-        static SingletonSkillManager manager;
+        static SkillManager manager;
 
-        private SingletonSkillManager(ApplicationDbContext context) : base(context)
+        private SkillManager(ApplicationDbContext context) : base(context)
         {
         }
 
-        public static SingletonSkillManager GetInstance(ApplicationDbContext context)
+        public static SkillManager GetInstance(ApplicationDbContext context)
         {
             if (manager == null)
             {
-                manager = new SingletonSkillManager(context);
+                manager = new SkillManager(context);
             }
             return manager;
         }

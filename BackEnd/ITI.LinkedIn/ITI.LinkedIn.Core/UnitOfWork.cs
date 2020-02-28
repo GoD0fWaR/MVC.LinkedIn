@@ -27,39 +27,39 @@ namespace ITI.LinkedIn.Core
             return new UnitOfWork(owinContext);
         }
         #region Hossam
-        public SingletonSkillManager SkillManager
+        public SkillManager SkillManager
         {
             get
             {
-                return SingletonSkillManager.GetInstance(context);
+                return SkillManager.GetInstance(context);
             }
         }
-        public SingletonCourseManager CourseManager
+        public CourseManager CourseManager
         {
             get
             {
-                return SingletonCourseManager.GetInstance(context);
+                return CourseManager.GetInstance(context);
             }
         }
-        public SingletonEmploymentTypeManager EmploymentTypeManager
+        public EmploymentTypeManager EmploymentTypeManager
         {
             get
             {
-                return SingletonEmploymentTypeManager.GetInstance(context);
+                return EmploymentTypeManager.GetInstance(context);
             }
         }
-        public SingletonUserPhotoManager UserPhotoManager
+        public UserPhotoManager UserPhotoManager
         {
             get
             {
-                return SingletonUserPhotoManager.GetInstance(context);
+                return UserPhotoManager.GetInstance(context);
             }
         }
-        public SingletonUserConnectionManager UserConnectionManager
+        public UserConnectionManager UserConnectionManager
         {
             get
             {
-                return SingletonUserConnectionManager.GetInstance(context);
+                return UserConnectionManager.GetInstance(context);
             }
         }
         #endregion
