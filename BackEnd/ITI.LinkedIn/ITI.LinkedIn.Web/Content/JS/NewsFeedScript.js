@@ -31,9 +31,9 @@
 //});
 
 // dropdownList for post options
-document.getElementById('post-option-click').addEventListener('click', function () {
-    document.getElementById('post-options-list').classList.toggle('d-block');
-});
+//document.getElementById('post-option-click').addEventListener('click', function () {
+//    document.getElementById('post-options-list').classList.toggle('d-block');
+//});
 
 // dropdownList for comment options
 document.getElementById('comment-option-click').addEventListener('click', function () {
@@ -155,4 +155,17 @@ function onCreatingPost()
 {
     $("#post").modal("hide");
     document.getElementById("form0").reset();
+}
+
+///////////////EVENT DELEGATION//////
+
+//for post options
+document.getElementById('posts-container').addEventListener('click', handleOptions)
+document.querySelector('.comment-sec').addEventListener('click', handleOptions)
+
+//handle options dropdown for posts /comments
+function handleOptions()
+{
+    console.log(event.target.parentNode.nextElementSibling);
+    event.target.parentNode.nextElementSibling.classList.toggle('d-block');
 }

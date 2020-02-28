@@ -292,7 +292,7 @@
     <Content Include="Views\Posts\NewsFeed.cshtml" />
     <Content Include="Views\Posts\_Create.cshtml" />
     <Content Include="Views\Posts\_PostLayout.cshtml" />
-    <Content Include="Views\Posts\_AddPost.cshtml" />
+    <Content Include="Views\Posts\_NewPost.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
