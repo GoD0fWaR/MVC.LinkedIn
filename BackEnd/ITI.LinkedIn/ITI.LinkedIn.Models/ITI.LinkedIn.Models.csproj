@@ -58,12 +58,47 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationUser.cs" />
+    <Compile Include="Certification.cs" />
+    <Compile Include="Comment.cs" />
+    <Compile Include="CommentPhoto.cs" />
+    <Compile Include="Company.cs" />
+    <Compile Include="Country.cs" />
+    <Compile Include="Course.cs" />
+    <Compile Include="CustomValidators\ValidatePhotoSizeAttribute.cs" />
+    <Compile Include="CustomValidators\ValidatePhotosSizeAttribute.cs" />
+    <Compile Include="CustomValidators\ValidatePhotosTypeAttribute.cs" />
+    <Compile Include="CustomValidators\ValidatePhotoTypeAttribute.cs" />
+    <Compile Include="Education.cs" />
+    <Compile Include="EmploymentType.cs" />
+    <Compile Include="Enums\FileType.cs" />
+    <Compile Include="Enums\Proficiency.cs" />
+    <Compile Include="Experience.cs" />
+    <Compile Include="Job.cs" />
+    <Compile Include="Language.cs" />
+    <Compile Include="PivotModels\UserConnection.cs" />
+    <Compile Include="PivotModels\UserLanguage.cs" />
+    <Compile Include="Post.cs" />
+    <Compile Include="PostPhoto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reply.cs" />
+    <Compile Include="ReplyPhoto.cs" />
+    <Compile Include="Skill.cs" />
+    <Compile Include="PivotModels\UserLikedComment.cs" />
+    <Compile Include="PivotModels\UserLikedPost.cs" />
+    <Compile Include="PivotModels\UserLikedReply.cs" />
+    <Compile Include="UserPhoto.cs" />
+    <Compile Include="UserProject.cs" />
+    <Compile Include="PivotModels\UserSharedPost.cs" />
+    <Compile Include="ViewModels\CertificationViewModel.cs" />
+    <Compile Include="ViewModels\ExperienceViewModel.cs" />
+    <Compile Include="ViewModels\JobViewModel.cs" />
+    <Compile Include="ViewModels\ProfileViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
