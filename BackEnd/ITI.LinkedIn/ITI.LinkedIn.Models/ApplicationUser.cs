@@ -1,5 +1,4 @@
-﻿using ITI.LinkedIn.Models.PivotModels;
-using Microsoft.AspNet.Identity;
+﻿using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
@@ -13,7 +12,32 @@ using System.Threading.Tasks;
 namespace ITI.LinkedIn.Models
 {
     public class ApplicationUser : IdentityUser
-    {/*
+    {
+
+        public ApplicationUser()
+        {
+            Skills = new HashSet<Skill>();
+            Courses = new HashSet<Course>();
+            Photos = new HashSet<UserPhoto>();
+            Following = new HashSet<UserConnection>();
+            Followers = new HashSet<UserConnection>();
+
+            Educations = new HashSet<Education>();
+            Projects = new HashSet<UserProject>();
+            Languages = new HashSet<UserLanguage>();
+
+            Experiences = new HashSet<Experience>();
+            Certifications = new HashSet<Certification>();
+
+            Posts = new HashSet<Post>();
+            Comments = new HashSet<Comment>();
+            Replies = new HashSet<Reply>();
+            UserLikedPosts = new HashSet<UserLikedPost>();
+            UserLikedComments = new HashSet<UserLikedComment>();
+            UserLikedReplies = new HashSet<UserLikedReply>();
+            UserSharedPosts = new HashSet<UserSharedPost>();
+        }
+
         // user data
         [Required(ErrorMessage = "First Name is Required")]
         [MaxLength(50, ErrorMessage = "First Name must be less than 50 characters")]
@@ -27,7 +51,7 @@ namespace ITI.LinkedIn.Models
         public string HeadLine { get; set; }
 
         // text in database
-        [MaxLength(500, ErrorMessage = "About must be less than 500 characters")]
+        [Column(TypeName = "text")]
         public string About { get; set; }
 
         public string CurrenPosition { get; set; }
@@ -41,14 +65,19 @@ namespace ITI.LinkedIn.Models
             // user photos
             public virtual ICollection<UserPhoto> Photos { get; set; }
 
-            // user connections
-            public virtual ICollection<UserConnection> UserConnections { get; set; }
+            // user followings
+            [InverseProperty("Sender")]
+            public virtual ICollection<UserConnection> Following { get; set; }
+
+            // user followers
+            [InverseProperty("Receiver")]
+            public virtual ICollection<UserConnection> Followers { get; set; }
         #endregion
 
         #region Nora
             public virtual ICollection<Education> Educations { get; set; }
 
-            public virtual ICollection<Project> Projects { get; set; }
+            public virtual ICollection<UserProject> Projects { get; set; }
 
             public virtual ICollection<UserLanguage> Languages { get; set; }
         #endregion
@@ -86,7 +115,7 @@ namespace ITI.LinkedIn.Models
             // user shared posts
             public virtual ICollection<UserSharedPost> UserSharedPosts { get; set; }
         #endregion
-        */
+        
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
             // Note the authenticationType must match the one defined in CookieAuthenticationOptions.AuthenticationType
