@@ -315,7 +315,7 @@ namespace ITI.LinkedIn.Context.Migrations
                         IsAccepted = c.Boolean(nullable: false),
                     })
                 .PrimaryKey(t => new { t.SenderId, t.ReceiverId })
-                .ForeignKey("dbo.AspNetUsers", t => t.ReceiverId, cascadeDelete: true)
+                .ForeignKey("dbo.AspNetUsers", t => t.ReceiverId)
                 .ForeignKey("dbo.AspNetUsers", t => t.SenderId, cascadeDelete: true)
                 .Index(t => t.SenderId)
                 .Index(t => t.ReceiverId);
