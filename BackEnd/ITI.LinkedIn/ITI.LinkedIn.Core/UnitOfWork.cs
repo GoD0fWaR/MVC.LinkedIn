@@ -133,12 +133,93 @@ namespace ITI.LinkedIn.Core
         }
         #endregion
 
+        #region Aya
+        public PostManager PostManager
+        {
+            get
+            {
+                return PostManager.GetInstance(context);
+            }
+        }
+        public CommentManager CommentManager
+        {
+            get
+            {
+                return CommentManager.GetInstance(context);
+            }
+        }
+        public ReplyManager ReplyManager
+        {
+            get
+            {
+                return ReplyManager.GetInstance(context);
+            }
+        }
+        public PostPhotoManager PostPhotoManager
+        {
+            get
+            {
+                return PostPhotoManager.GetInstance(context);
+            }
+        }
+        public CommentPhotoManager CommentPhotoManager
+        {
+            get
+            {
+                return CommentPhotoManager.GetInstance(context);
+            }
+        }
+        public ReplyPhotoManager ReplyPhotoManager
+        {
+            get
+            {
+                return ReplyPhotoManager.GetInstance(context);
+            }
+        }
+        #endregion
+
         public ApplicationUserManager ApplicationUserManager { get; }
         public ApplicationRoleManager ApplicationRoleManager { get; }
         public ApplicationSignInManager ApplicationSignInManager { get; }
 
         public void Dispose()
         {
+            #region Hossam
+            SkillManager.Dispose();
+            CourseManager.Dispose();
+            EmploymentTypeManager.Dispose();
+            UserPhotoManager.Dispose();
+            UserConnectionManager.Dispose();
+            #endregion
+
+            #region Nora
+            UserProjectManager.Dispose();
+            LanguageManager.Dispose();
+            UserLanguageManager.Dispose();
+            EducationManager.Dispose();
+            #endregion
+
+            #region Wafaa
+            ExperienceManager.Dispose();
+            CountryManager.Dispose();
+            CompanyManager.Dispose();
+            JobManager.Dispose();
+            CertificationManager.Dispose();
+            #endregion
+
+            #region Aya
+            PostManager.Dispose();
+            CommentManager.Dispose();
+            ReplyManager.Dispose();
+            PostPhotoManager.Dispose();
+            CommentPhotoManager.Dispose();
+            ReplyPhotoManager.Dispose();
+            #endregion
+
+            ApplicationUserManager.Dispose();
+            ApplicationRoleManager.Dispose();
+            ApplicationSignInManager.Dispose();
+
             context = null;
         }
     }

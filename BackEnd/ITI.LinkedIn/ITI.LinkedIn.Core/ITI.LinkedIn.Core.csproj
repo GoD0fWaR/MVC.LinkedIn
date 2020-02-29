@@ -92,6 +92,8 @@
     <Compile Include="Managers\ApplicationSignInManager.cs" />
     <Compile Include="Managers\ApplicationUserManager.cs" />
     <Compile Include="SingletonManagers\CertificationManager.cs" />
+    <Compile Include="SingletonManagers\CommentManager .cs" />
+    <Compile Include="SingletonManagers\CommentPhotoManager .cs" />
     <Compile Include="SingletonManagers\CompanyManager.cs" />
     <Compile Include="SingletonManagers\CountryManager.cs" />
     <Compile Include="SingletonManagers\EducationManager.cs" />
@@ -100,6 +102,10 @@
     <Compile Include="SingletonManagers\LanguageManager.cs" />
     <Compile Include="SingletonManagers\CourseManager.cs" />
     <Compile Include="SingletonManagers\EmploymentTypeManager.cs" />
+    <Compile Include="SingletonManagers\PostManager.cs" />
+    <Compile Include="SingletonManagers\PostPhotoManager.cs" />
+    <Compile Include="SingletonManagers\ReplyManager.cs" />
+    <Compile Include="SingletonManagers\ReplyPhotoManager.cs" />
     <Compile Include="SingletonManagers\SkillManager.cs" />
     <Compile Include="SingletonManagers\UserConnectionManager.cs" />
     <Compile Include="SingletonManagers\UserPhotoManager.cs" />
