@@ -19,7 +19,7 @@ namespace ITI.LinkedIn.Context.Migrations
                         CompanyId = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Company", t => t.CompanyId, cascadeDelete: true)
+                .ForeignKey("dbo.Company", t => t.CompanyId)
                 .ForeignKey("dbo.AspNetUsers", t => t.UserId)
                 .Index(t => t.UserId)
                 .Index(t => t.CompanyId);
@@ -51,9 +51,9 @@ namespace ITI.LinkedIn.Context.Migrations
                         EmploymentTypeId = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Company", t => t.CompanyId, cascadeDelete: true)
-                .ForeignKey("dbo.Country", t => t.CountryId, cascadeDelete: true)
-                .ForeignKey("dbo.EmploymentType", t => t.EmploymentTypeId, cascadeDelete: true)
+                .ForeignKey("dbo.Company", t => t.CompanyId)
+                .ForeignKey("dbo.Country", t => t.CountryId)
+                .ForeignKey("dbo.EmploymentType", t => t.EmploymentTypeId)
                 .ForeignKey("dbo.AspNetUsers", t => t.UserId)
                 .Index(t => t.UserId)
                 .Index(t => t.CountryId)
@@ -88,8 +88,8 @@ namespace ITI.LinkedIn.Context.Migrations
                     })
                 .PrimaryKey(t => t.Id)
                 .ForeignKey("dbo.Company", t => t.CompanyId, cascadeDelete: true)
-                .ForeignKey("dbo.Country", t => t.CountryId, cascadeDelete: true)
-                .ForeignKey("dbo.EmploymentType", t => t.EmploymentTypeId, cascadeDelete: true)
+                .ForeignKey("dbo.Country", t => t.CountryId)
+                .ForeignKey("dbo.EmploymentType", t => t.EmploymentTypeId)
                 .Index(t => t.EmploymentTypeId)
                 .Index(t => t.CompanyId)
                 .Index(t => t.CountryId);
@@ -127,7 +127,7 @@ namespace ITI.LinkedIn.Context.Migrations
                         UserName = c.String(nullable: false, maxLength: 256),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Country", t => t.CountryId, cascadeDelete: true)
+                .ForeignKey("dbo.Country", t => t.CountryId)
                 .Index(t => t.CountryId)
                 .Index(t => t.UserName, unique: true, name: "UserNameIndex");
             
@@ -329,7 +329,7 @@ namespace ITI.LinkedIn.Context.Migrations
                         Proficiency = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => new { t.UserId, t.LanguageId })
-                .ForeignKey("dbo.Language", t => t.LanguageId, cascadeDelete: true)
+                .ForeignKey("dbo.Language", t => t.LanguageId)
                 .ForeignKey("dbo.AspNetUsers", t => t.UserId, cascadeDelete: true)
                 .Index(t => t.UserId)
                 .Index(t => t.LanguageId);
@@ -423,8 +423,8 @@ namespace ITI.LinkedIn.Context.Migrations
                         ApplicationUser_Id = c.String(nullable: false, maxLength: 128),
                     })
                 .PrimaryKey(t => new { t.Course_Id, t.ApplicationUser_Id })
-                .ForeignKey("dbo.Course", t => t.Course_Id, cascadeDelete: true)
-                .ForeignKey("dbo.AspNetUsers", t => t.ApplicationUser_Id, cascadeDelete: true)
+                .ForeignKey("dbo.Course", t => t.Course_Id)
+                .ForeignKey("dbo.AspNetUsers", t => t.ApplicationUser_Id)
                 .Index(t => t.Course_Id)
                 .Index(t => t.ApplicationUser_Id);
             
@@ -436,8 +436,8 @@ namespace ITI.LinkedIn.Context.Migrations
                         ApplicationUser_Id = c.String(nullable: false, maxLength: 128),
                     })
                 .PrimaryKey(t => new { t.Skill_Id, t.ApplicationUser_Id })
-                .ForeignKey("dbo.Skill", t => t.Skill_Id, cascadeDelete: true)
-                .ForeignKey("dbo.AspNetUsers", t => t.ApplicationUser_Id, cascadeDelete: true)
+                .ForeignKey("dbo.Skill", t => t.Skill_Id)
+                .ForeignKey("dbo.AspNetUsers", t => t.ApplicationUser_Id)
                 .Index(t => t.Skill_Id)
                 .Index(t => t.ApplicationUser_Id);
             
