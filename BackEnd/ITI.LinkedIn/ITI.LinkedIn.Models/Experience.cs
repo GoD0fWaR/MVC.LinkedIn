@@ -16,28 +16,31 @@ namespace ITI.LinkedIn.Models
         public int Id { set; get; }
 
         [Required(ErrorMessage = "Title is Required")]
-        [MaxLength(50, ErrorMessage = "Title must be less then 50")]
+        [MaxLength(255, ErrorMessage = "Title must be less then 255")]
         public string Title { set; get; }
 
         [Required(ErrorMessage = "Description is Required")]
-        [MaxLength(50, ErrorMessage = "Description must be less then 500")]
+        [Column(TypeName = "text")]
         public string Description { set; get; }
 
         [Required(ErrorMessage = "HeadLine is Required")]
-        [MaxLength(50, ErrorMessage = "HeadLine must be less then 50")]
+        [MaxLength(255, ErrorMessage = "HeadLine must be less then 255")]
         public string HeadLine { set; get; }
 
         [Required(ErrorMessage = "StartDate is Required")]
+        [Column(TypeName = "datetime2")]
         public DateTime StartDate { set; get; }
 
         [Required(ErrorMessage = "EndDate is Required")]
+        [Column(TypeName = "datetime2")]
         public DateTime EndDate { set; get; }
+
         public bool CurrentlyWorkingHere { get; set; }
 
         //Relations
         //UserId
         [ForeignKey("User")]
-        public int UserId { set; get; }
+        public string UserId { set; get; }
         public virtual ApplicationUser User { set; get; }
 
         //Country Id

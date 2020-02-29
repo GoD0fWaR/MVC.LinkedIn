@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ITI.LinkedIn.Models.PivotModels
+namespace ITI.LinkedIn.Models
 {
     [Table("UserConnection")]
     public class UserConnection
@@ -14,15 +14,15 @@ namespace ITI.LinkedIn.Models.PivotModels
         [Key]
         [Column(Order = 1)]
         [ForeignKey("Sender")]
-        public int SenderId { get; set; }
+        public string SenderId { get; set; }
+        public virtual ApplicationUser Sender { get; set; }
+
         [Key]
         [Column(Order = 2)]
         [ForeignKey("Receiver")]
-        public int ReceiverId { get; set; }
+        public string ReceiverId { get; set; }
+        public virtual ApplicationUser Receiver { get; set; }
 
         public bool IsAccepted { get; set; }
-
-        public virtual ApplicationUser Sender { get; set; }
-        public virtual ApplicationUser Receiver { get; set; }
     }
 }

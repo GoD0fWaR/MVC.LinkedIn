@@ -1,5 +1,5 @@
 ﻿using ITI.LinkedIn.Context;
-using ITI.LinkedIn.Models.PivotModels;
+using ITI.LinkedIn.Models;
 using ITI.LinkedIn.Repository;
 using System;
 using System.Collections.Generic;

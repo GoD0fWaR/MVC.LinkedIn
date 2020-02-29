@@ -17,7 +17,7 @@ namespace ITI.LinkedIn.Models
         public string Path { get; set; }
 
         [ForeignKey("User")]
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         public virtual ApplicationUser User { get; set; }
     }
 }

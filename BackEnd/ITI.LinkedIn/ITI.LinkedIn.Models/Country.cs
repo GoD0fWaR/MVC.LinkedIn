@@ -18,12 +18,11 @@ namespace ITI.LinkedIn.Models
             Jobs = new HashSet<Job>();
             Experiences = new HashSet<Experience>();
         }
-
         //Country Data
         [Key]
         public int Id { set; get; }
-        [Required(ErrorMessage = "Country Name is Required")]
 
+        [Required(ErrorMessage = "Country Name is Required")]
         [MaxLength(50, ErrorMessage = "Country Name must be less than 50")]
         public string Name { set; get; }
 

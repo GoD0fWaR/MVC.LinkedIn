@@ -11,17 +11,11 @@ namespace ITI.LinkedIn.Models
     [Table("Education")]
     public class Education
     {
-        public Education()
-        {
-            this.StartYear = DateTime.Now;
-            this.EndYear = DateTime.Now;
-        }
-
         [Key]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Name is Required")]
-        [MaxLength(50, ErrorMessage = " Name must be less than 50 characters")]
+        [MaxLength(255, ErrorMessage = " Name must be less than 255 characters")]
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Degree is Required")]
@@ -44,12 +38,11 @@ namespace ITI.LinkedIn.Models
         [Column(TypeName = "datetime2")]
         public DateTime EndYear { get; set; }
 
-        [MaxLength(255, ErrorMessage = "Description must be less than 255 characters")]
+        [Column(TypeName = "text")]
         public string Description { get; set; }
 
-        [ForeignKey("ApplicationUser")]
+        [ForeignKey("User")]
         public string UserId { get; set; }
-
-        public virtual ApplicationUser ApplicationUser { get; set; }
+        public virtual ApplicationUser User { get; set; }
     }
 }

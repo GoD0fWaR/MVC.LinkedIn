@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
 using ITI.LinkedIn.Models;
-using ITI.LinkedIn.Models.PivotModels;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;

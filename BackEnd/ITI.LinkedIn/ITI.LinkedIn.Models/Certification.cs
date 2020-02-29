@@ -22,12 +22,13 @@ namespace ITI.LinkedIn.Models
         public string Url { set; get; }
 
         [Required(ErrorMessage = "Issue Date is Required")]
+        [Column(TypeName = "datetime2")]
         public DateTime IssueDate { set; get; }
 
         //Certification Relation
         //user Id
         [ForeignKey("User")]
-        public int UserId { set; get; }
+        public string UserId { set; get; }
         public virtual ApplicationUser User { set; get; }
 
         //Company Id

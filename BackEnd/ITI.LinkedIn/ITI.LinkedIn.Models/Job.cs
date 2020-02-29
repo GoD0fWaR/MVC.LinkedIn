@@ -16,22 +16,25 @@ namespace ITI.LinkedIn.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Job Title is Required")]
-        [MaxLength(50, ErrorMessage = "Job Title Must be less than 50")]
-        public string Name { set; get; }
+        [MaxLength(255, ErrorMessage = "Job Title Must be less than 255")]
+        public string Title { set; get; }
 
         [Required(ErrorMessage = "Date is Required")]
+        [Column(TypeName = "datetime2")]
         public DateTime PublishDate { set; get; }
 
-        [Required(ErrorMessage = "No Of Applicants is required")]
-        public int NumberOfApplicats { set; get; }
+        //[Required(ErrorMessage = "No Of Applicants is required")]
+        public int NumberOfApplicats { set; get; } = 0;
 
         [Required(ErrorMessage = "Level is Required")]
         public string Level { set; get; }
 
         [Required(ErrorMessage = "Mission is Required")]
+        [Column(TypeName = "text")]
         public string Mission { set; get; }
 
         [Required(ErrorMessage = "Resposibilities is Required")]
+        [Column(TypeName = "text")]
         public string Responsibilities { set; get; }
 
         [Required(ErrorMessage = "Languages is Required")]
