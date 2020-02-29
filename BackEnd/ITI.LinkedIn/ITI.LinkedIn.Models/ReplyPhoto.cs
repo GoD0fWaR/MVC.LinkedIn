@@ -9,11 +9,6 @@ namespace ITI.LinkedIn.Models
     public class ReplyPhoto
     {
         [Key]
-        [Column(Order = 1)]
-        public int Id { get; set; }
-
-        [Key]
-        [Column(Order = 2)]
         [ForeignKey("Reply")]
         public int ReplyId { get; set; }
         public virtual Reply Reply { get; set; }

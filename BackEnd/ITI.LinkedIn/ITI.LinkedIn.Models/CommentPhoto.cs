@@ -9,11 +9,6 @@ namespace ITI.LinkedIn.Models
     public class CommentPhoto
     {
         [Key]
-        [Column(Order = 1)]
-        public int Id { get; set; }
-
-        [Key]
-        [Column(Order = 2)]
         [ForeignKey("Comment")]
         public int CommentId { get; set; }
         public virtual Comment Comment { get; set; }
