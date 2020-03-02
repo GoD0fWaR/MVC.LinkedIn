@@ -87,7 +87,7 @@ namespace ITI.LinkedIn.Context.Migrations
                         CountryId = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Company", t => t.CompanyId, cascadeDelete: true)
+                .ForeignKey("dbo.Company", t => t.CompanyId)
                 .ForeignKey("dbo.Country", t => t.CountryId)
                 .ForeignKey("dbo.EmploymentType", t => t.EmploymentTypeId)
                 .Index(t => t.EmploymentTypeId)
@@ -141,7 +141,7 @@ namespace ITI.LinkedIn.Context.Migrations
                         ClaimValue = c.String(),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.AspNetUsers", t => t.UserId, cascadeDelete: true)
+                .ForeignKey("dbo.AspNetUsers", t => t.UserId)
                 .Index(t => t.UserId);
             
             CreateTable(
@@ -155,7 +155,7 @@ namespace ITI.LinkedIn.Context.Migrations
                         PostId = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Post", t => t.PostId, cascadeDelete: true)
+                .ForeignKey("dbo.Post", t => t.PostId)
                 .ForeignKey("dbo.AspNetUsers", t => t.UserId)
                 .Index(t => t.UserId)
                 .Index(t => t.PostId);
@@ -193,7 +193,7 @@ namespace ITI.LinkedIn.Context.Migrations
                         PostId = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Post", t => t.PostId, cascadeDelete: true)
+                .ForeignKey("dbo.Post", t => t.PostId)
                 .Index(t => t.PostId);
             
             CreateTable(
@@ -205,8 +205,8 @@ namespace ITI.LinkedIn.Context.Migrations
                         Date = c.DateTime(nullable: false, precision: 7, storeType: "datetime2"),
                     })
                 .PrimaryKey(t => new { t.UserId, t.PostId })
-                .ForeignKey("dbo.Post", t => t.PostId, cascadeDelete: true)
-                .ForeignKey("dbo.AspNetUsers", t => t.UserId, cascadeDelete: true)
+                .ForeignKey("dbo.Post", t => t.PostId)
+                .ForeignKey("dbo.AspNetUsers", t => t.UserId)
                 .Index(t => t.UserId)
                 .Index(t => t.PostId);
             
@@ -219,8 +219,8 @@ namespace ITI.LinkedIn.Context.Migrations
                         Date = c.DateTime(nullable: false, precision: 7, storeType: "datetime2"),
                     })
                 .PrimaryKey(t => new { t.UserId, t.PostId })
-                .ForeignKey("dbo.Post", t => t.PostId, cascadeDelete: true)
-                .ForeignKey("dbo.AspNetUsers", t => t.UserId, cascadeDelete: true)
+                .ForeignKey("dbo.Post", t => t.PostId)
+                .ForeignKey("dbo.AspNetUsers", t => t.UserId)
                 .Index(t => t.UserId)
                 .Index(t => t.PostId);
             
@@ -235,7 +235,7 @@ namespace ITI.LinkedIn.Context.Migrations
                         CommentId = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
-                .ForeignKey("dbo.Comment", t => t.CommentId, cascadeDelete: true)
+                .ForeignKey("dbo.Comment", t => t.CommentId)
                 .ForeignKey("dbo.AspNetUsers", t => t.UserId)
                 .Index(t => t.UserId)
                 .Index(t => t.CommentId);
@@ -260,8 +260,8 @@ namespace ITI.LinkedIn.Context.Migrations
                         Date = c.DateTime(nullable: false, precision: 7, storeType: "datetime2"),
                     })
                 .PrimaryKey(t => new { t.UserId, t.PostId })
-                .ForeignKey("dbo.Reply", t => t.PostId, cascadeDelete: true)
-                .ForeignKey("dbo.AspNetUsers", t => t.UserId, cascadeDelete: true)
+                .ForeignKey("dbo.Reply", t => t.PostId)
+                .ForeignKey("dbo.AspNetUsers", t => t.UserId)
                 .Index(t => t.UserId)
                 .Index(t => t.PostId);
             
@@ -274,8 +274,8 @@ namespace ITI.LinkedIn.Context.Migrations
                         Date = c.DateTime(nullable: false, precision: 7, storeType: "datetime2"),
                     })
                 .PrimaryKey(t => new { t.UserId, t.CommentId })
-                .ForeignKey("dbo.Comment", t => t.CommentId, cascadeDelete: true)
-                .ForeignKey("dbo.AspNetUsers", t => t.UserId, cascadeDelete: true)
+                .ForeignKey("dbo.Comment", t => t.CommentId)
+                .ForeignKey("dbo.AspNetUsers", t => t.UserId)
                 .Index(t => t.UserId)
                 .Index(t => t.CommentId);
             
@@ -316,7 +316,7 @@ namespace ITI.LinkedIn.Context.Migrations
                     })
                 .PrimaryKey(t => new { t.SenderId, t.ReceiverId })
                 .ForeignKey("dbo.AspNetUsers", t => t.ReceiverId)
-                .ForeignKey("dbo.AspNetUsers", t => t.SenderId, cascadeDelete: true)
+                .ForeignKey("dbo.AspNetUsers", t => t.SenderId)
                 .Index(t => t.SenderId)
                 .Index(t => t.ReceiverId);
             
@@ -330,7 +330,7 @@ namespace ITI.LinkedIn.Context.Migrations
                     })
                 .PrimaryKey(t => new { t.UserId, t.LanguageId })
                 .ForeignKey("dbo.Language", t => t.LanguageId)
-                .ForeignKey("dbo.AspNetUsers", t => t.UserId, cascadeDelete: true)
+                .ForeignKey("dbo.AspNetUsers", t => t.UserId)
                 .Index(t => t.UserId)
                 .Index(t => t.LanguageId);
             
@@ -352,7 +352,7 @@ namespace ITI.LinkedIn.Context.Migrations
                         UserId = c.String(nullable: false, maxLength: 128),
                     })
                 .PrimaryKey(t => new { t.LoginProvider, t.ProviderKey, t.UserId })
-                .ForeignKey("dbo.AspNetUsers", t => t.UserId, cascadeDelete: true)
+                .ForeignKey("dbo.AspNetUsers", t => t.UserId)
                 .Index(t => t.UserId);
             
             CreateTable(
@@ -391,8 +391,8 @@ namespace ITI.LinkedIn.Context.Migrations
                         RoleId = c.String(nullable: false, maxLength: 128),
                     })
                 .PrimaryKey(t => new { t.UserId, t.RoleId })
-                .ForeignKey("dbo.AspNetUsers", t => t.UserId, cascadeDelete: true)
-                .ForeignKey("dbo.AspNetRoles", t => t.RoleId, cascadeDelete: true)
+                .ForeignKey("dbo.AspNetUsers", t => t.UserId)
+                .ForeignKey("dbo.AspNetRoles", t => t.RoleId)
                 .Index(t => t.UserId)
                 .Index(t => t.RoleId);
             
